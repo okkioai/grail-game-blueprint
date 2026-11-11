@@ -4,6 +4,12 @@
 >
 > Start in a New York bedroom. Learn the market. Make the deal. Build a name.
 
+<p align="center">
+  <a href="https://www.grailgame.co">
+    <img src="docs/images/grail-dealer-hero.png" alt="A watch dealer negotiating across a table in New York" width="100%">
+  </a>
+</p>
+
 GRAIL is a mobile strategy game about becoming a watch dealer. The player begins with a desk, a small collection, limited Cash, and almost no Reputation. Every watch is both an object of desire and a commercial decision: inspect it, understand the opportunity, negotiate the price, commit capital, and find the right exit.
 
 This repository is the living design blueprint for the MVP. It records the rules we have agreed on, separates confirmed direction from unresolved tuning, and provides the briefs that will guide wireframes and prototypes.
@@ -136,6 +142,11 @@ That distinction matters. The blueprint should be specific enough to build from 
 **Last updated:** November 2026
 
 The next production pass is to insert wireframes beside the relevant system flows, then use the open-question list to plan focused prototypes and economy tests.
+
+## Links and contact
+
+- **Website:** [grailgame.co](https://www.grailgame.co)
+- **Email:** [hello@grailgame.co](mailto:hello@grailgame.co)
 
 ---
 
