@@ -104,7 +104,7 @@ The MVP is not:
 
 The product direction is working when a player can describe a memorable deal in plain language:
 
-> “The dealer wanted too much, but I noticed the watch was incomplete. I used that fact, pushed him once more before he lost patience, bought it with just enough Cash left, and later found a buyer looking for that exact configuration.”
+> “The dealer named his price, but I knew another dealer who would pay more for the watch. I negotiated enough room for a profit, made the deal, and sold it to him.”
 
-That story contains the watch, the person, the pressure, the resource decision, and the exit. That is GRAIL.
+That story contains market knowledge, a dealer relationship, negotiation, margin, and a planned exit. That is GRAIL.
 
