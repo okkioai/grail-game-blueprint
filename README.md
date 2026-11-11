@@ -63,6 +63,7 @@ The separation is fundamental. **Gold never buys watches and never converts dire
 - Watch facts appear immediately; inspection is not a compulsory tapping ritual.
 - Negotiation uses contextual rebuttals, a press-and-hold action, and dealer patience.
 - Every dealer buys every watch, with stronger offers from specialists.
+- From **Sell**, the player can ask what a dealer needs; the dealer may name a model and maximum Cash price valid for the next two Game Days.
 - Two auction entries are free each Game Day; additional entries cost Gold.
 - All player-owned watches are automatically discoverable in the marketplace.
 - Buyers post model-specific Cash offers; matching owners receive notifications.
@@ -115,7 +116,7 @@ The separation is fundamental. **Gold never buys watches and never converts dire
 
 10. [Wireframe plan](docs/10-wireframe-plan.md)
 
-    Twelve screen briefs, required information, interaction states, and image conventions.
+    Thirteen screen briefs, required information, interaction states, and image conventions.
 
 11. [Open questions and decision log](docs/11-open-questions.md)
 

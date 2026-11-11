@@ -7,7 +7,7 @@
 The MVP is built around one repeatable cycle:
 
 1. **Maintain buying power.** Preserve Cash through good exits, earn profit, or receive the periodic game grant.
-2. **Find an opportunity.** Visit a street dealer, preview an auction, or create/respond to a marketplace offer.
+2. **Find an opportunity.** Visit a street dealer, discover a dealer sourcing request, preview an auction, or create/respond to a marketplace offer.
 3. **Read the watch.** Understand condition, completeness, configuration, known facts, and current price.
 4. **Make the deal.** Negotiate, bid, accept, decline, or walk away.
 5. **Commit Cash and space.** An acquired watch occupies inventory and ties up capital.
@@ -29,6 +29,7 @@ The Game Day is a market refresh clock. It gives the world rhythm and creates re
 At a Game Day boundary, the game can:
 
 - Refresh dealer stock.
+- Advance and expire two-Game-Day dealer sourcing requests.
 - Present new auction opportunities.
 - Advance or refresh marketplace activity.
 - Update selected timers and notifications.
@@ -119,6 +120,7 @@ Combining these roles would weaken the strategy. If Gold bought watches, spendin
 The economy should produce several understandable tensions:
 
 - A watch may be profitable but consume too much available Cash.
+- A dealer request may reveal a profitable exit, but the player still has to source the right watch before the two-Game-Day window closes.
 - A full watch box may force a sale before the player can acquire another opportunity.
 - A marketplace offer reserves Cash that could otherwise fund a dealer purchase.
 - An auction can remain attractive while each bid narrows the expected margin.

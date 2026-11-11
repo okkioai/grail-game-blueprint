@@ -26,6 +26,7 @@ It does not need to simulate the entire watch industry. It needs to make finding
 - Watch fact sheet without compulsory inspection gestures.
 - Buying negotiation.
 - Selling negotiation.
+- Two-Game-Day dealer sourcing requests that can be fulfilled through other dealers, auctions, or the marketplace.
 - Dealer specialties and patience.
 
 ### Negotiation
@@ -111,6 +112,7 @@ The MVP should answer:
 - Do players sometimes walk away voluntarily?
 - Does limited inventory create healthy pressure?
 - Is dealer selling a satisfying liquidity option?
+- Do dealer sourcing requests encourage players to compare acquisition channels and plan an exit before buying?
 - Do auctions create excitement without disguising the margin decision?
 - Does the offer-driven marketplace create useful connections?
 - Are Cash, Gold, and Reputation understood as separate systems?
@@ -148,5 +150,5 @@ A system is ready for a first wireframe when:
 - Important empty, error, and completion states are named.
 - Unresolved tuning does not change the fundamental layout.
 
-The [wireframe plan](10-wireframe-plan.md) applies this test to twelve core views.
+The [wireframe plan](10-wireframe-plan.md) applies this test to thirteen core views.
 

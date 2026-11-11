@@ -201,6 +201,23 @@ Wireframes should be inserted into the relevant system documents as they are app
 
 **States:** Progressing, threshold reached, insufficient Gold, location opened, grant upcoming, grant available, and grant received.
 
+## WF-13 — Dealer sourcing request
+
+**Purpose:** Let the player discover temporary dealer demand, understand the potential margin, and return with a sourced watch before the opportunity expires.
+
+**Required elements:**
+
+- Requesting dealer.
+- Requested watch model.
+- Maximum Cash price.
+- Two-Game-Day deadline.
+- Real-time expiry.
+- Current ownership or matching-watch status.
+- Routes to other dealers, auctions, and the marketplace.
+- Return-to-dealer action after acquisition.
+
+**States:** No current request, new request, active request, matching watch owned, non-matching variant, fulfilled request, and expired request.
+
 ## Review checklist
 
 Every wireframe review should ask:

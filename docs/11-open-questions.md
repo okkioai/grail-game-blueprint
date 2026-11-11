@@ -25,6 +25,7 @@ An open question does not make the entire system unconfirmed.
 | Negotiation input | Press and hold rather than slider/swipe | The signature action is one-thumb friendly |
 | Dealer patience | Runs down and ends in a final price | Haggling has a finite cost and shape |
 | Dealer selling | Every dealer buys every watch | The player always has a liquidity route |
+| Dealer sourcing | From Sell, a dealer may request a model and quote a maximum Cash price for the next two Game Days | The player can identify an exit, source across channels, and attempt an arbitrage deal before demand expires |
 | Auction allowance | Two free entries per Game Day | Gold sells additional opportunity after a usable free allowance |
 | Marketplace supply | Owned watches are automatically discoverable | Buyers create demand; sellers need not maintain listings |
 | Marketplace trade | Buyer posts Cash offer; matching owners are notified | First valid owner acceptance completes the transfer |
@@ -84,8 +85,14 @@ An open question does not make the entire system unconfirmed.
 - Do dealer prices change across Game Days?
 - Does leaving a negotiation preserve its state?
 - Can the same watch return after a refresh?
+- Is a sourcing request's stated maximum a guaranteed purchase price or the ceiling of a new negotiation?
+- Which condition, completeness, and configuration requirements must a sourced watch satisfy?
+- How often does a dealer have a sourcing request?
+- How many requests can the player track at once?
+- Does a request survive the dealer's normal stock refresh?
+- Does fulfilling a request award additional Reputation?
 
-**Why it matters:** Dealers define the dependable floor of liquidity and the baseline economy.
+**Why it matters:** Dealers define the dependable floor of liquidity and the baseline economy. Sourcing requests also create temporary demand and cross-system arbitrage, so their price certainty and matching rules must be explicit.
 
 ### Auctions
 

@@ -36,7 +36,8 @@ The specialty makes character knowledge commercially useful.
 3. Up to five available watches are shown with enough information to compare them.
 4. The player selects a watch.
 5. The watch fact sheet opens.
-6. The player chooses to negotiate, leave, or switch to selling an owned watch.
+6. The player chooses to negotiate, leave, or open **Sell**.
+7. From **Sell**, the player can select an owned watch or ask what the dealer is currently looking for.
 
 The storefront should also display when stock will refresh, but the timer should not dominate the interaction.
 
@@ -108,6 +109,58 @@ This guarantees a liquidity route. The player is never permanently trapped with 
 
 Selling to a dealer should be faster and more reliable than waiting for a player buyer. The likely tradeoff is a lower return.
 
+## Dealer sourcing requests
+
+### Confirmed rule
+
+From **Sell**, the player can ask a dealer whether they need a particular watch. The dealer can respond with:
+
+- A specific watch model they want.
+- The maximum Cash amount they are willing to pay.
+- A deadline exactly **two Game Days** from the request.
+
+For example, a dealer might say that they are looking for a Cartier Santos and will pay up to $5,000 for one during the next two Game Days.
+
+### Design purpose
+
+A sourcing request gives the player a potential exit before they own the watch. It turns market knowledge into a concrete short-term objective: find the requested model for less than the dealer's stated maximum, then return before the demand expires.
+
+The feature also connects the acquisition systems. The player can search for the watch through:
+
+- Another street dealer.
+- An auction.
+- The player marketplace.
+
+The player is not given the watch or directed to a guaranteed source. The opportunity comes from recognizing a possible margin and finding supply before time runs out.
+
+### Sourcing flow
+
+1. Open **Sell** with a street dealer.
+2. Choose between selecting an owned watch and asking what the dealer needs.
+3. Receive the requested model, maximum Cash price, and two-Game-Day deadline.
+4. Decide whether the potential margin is worth pursuing.
+5. Search other dealers, auctions, and the marketplace for the requested watch.
+6. Acquire a matching watch using Cash and an available inventory slot.
+7. Return to the requesting dealer before the deadline.
+8. Select the sourced watch and complete the sale under the final request and negotiation rules.
+
+### Timing and visibility
+
+The request remains valid through the next two Game Days. The interface must show both the remaining Game Days and the real-time expiry so the player does not have to convert the game clock mentally.
+
+The active request should remain visible outside the original conversation. At minimum, the player needs a route from the room hub or watch box back to the requesting dealer.
+
+### What the request does not guarantee yet
+
+The request confirms the model, maximum price, and two-Game-Day window. The following details remain open and must not be silently assumed in implementation:
+
+- Whether the maximum is a guaranteed purchase price or the ceiling of a new sale negotiation.
+- Which condition, completeness, or configuration requirements must match.
+- Whether asking creates a tracked commitment, or simply reveals temporary dealer demand.
+- How many sourcing requests may be active at once.
+- What happens if the dealer's normal stock refreshes while the request is active.
+- Whether the player earns extra Reputation for fulfilling the request.
+
 ## Dealer character model
 
 Each dealer needs a concise content profile:
@@ -134,12 +187,16 @@ The dealer experience must handle:
 - A watch that the player already owns in another configuration.
 - Leaving negotiation without buying.
 - Returning after the dealer has given a final price.
+- A sourcing request with no matching watch currently available.
+- Returning with the requested model after the two-Game-Day deadline.
+- Returning with the correct model but unresolved condition, completeness, or configuration requirements.
+- More than one dealer requesting the same model.
 
 ## Wireframe implications
 
-The dealer storefront and watch fact sheet should be separate wireframes. The first is about comparison and character; the second is about a single commercial decision.
+The dealer storefront, watch fact sheet, and sourcing-request state should be separate wireframes. The storefront is about comparison and character; the fact sheet is about a single commercial decision; the sourcing request is about a model, target exit price, and deadline.
 
-Dealer portrait, stock, specialty, and refresh time should be visible without competing with the watch itself. On the fact sheet, the primary action is **Negotiate** and the secondary action is **Leave**.
+Dealer portrait, stock, specialty, and refresh time should be visible without competing with the watch itself. On the fact sheet, the primary action is **Negotiate** and the secondary action is **Leave**. Under **Sell**, selecting an owned watch and asking what the dealer needs must be clearly different actions.
 
 ## Open tuning
 
@@ -149,4 +206,8 @@ Dealer portrait, stock, specialty, and refresh time should be visible without co
 - How strongly specialty affects sale and purchase prices.
 - Whether relationship memory affects prices in the MVP.
 - Whether projected resale ranges appear at launch.
+- Whether the sourcing-request maximum is guaranteed or negotiable.
+- Match requirements beyond the requested model.
+- Request availability, concurrency, and refresh rules.
+- Reputation reward for fulfilling a request.
 
