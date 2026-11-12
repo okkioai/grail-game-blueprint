@@ -114,25 +114,32 @@ The exact consequence is not yet confirmed. A useful MVP prototype should test t
 
 The result must be legible. The player should understand why the attempt failed and which fact would have been stronger, without the game feeling like an arbitrary quiz.
 
-## Buying and selling symmetry
+## Buying and selling variants
 
-The same basic structure can support selling to a dealer:
+### Buying
 
-- The dealer opens with a Cash offer.
-- The dealer gives a reason for the valuation.
-- The player selects a favorable fact about the owned watch.
-- The player presses to push the offer upward.
-- Dealer patience limits the number of rounds.
-- The player accepts the current offer or keeps the watch.
+Buying keeps the Read → Rebut → Press → Decide cycle described above. The dealer opens with an asking price, the player uses a weakening fact, and press-and-hold applies pressure to move the price down.
 
-The language changes, but the learned interaction remains useful.
+### Selling to a dealer
+
+Selling is seller-led rather than a mirrored buying flow:
+
+1. The player sets the opening asking price.
+2. The dealer responds with a Cash counteroffer and a reason for it.
+3. All three player responses argue in favor of the owned watch; one uses a commercially strong visible fact, while the others are irrelevant or unsupported.
+4. The player chooses whether to hold the current ask or lower it by a chosen Cash amount.
+5. The dealer responds to the revised ask and patience decreases.
+6. The player may accept the dealer's current offer at any time, continue defending the watch, or walk away.
+7. The sale becomes available at the player's revised ask when it meets the dealer's current offer.
+
+This keeps knowledge and dealer personality central while giving the seller direct control over concessions. Selling does not use the buying pressure meter.
 
 ## Screen hierarchy
 
 The negotiation screen must keep these elements visible:
 
 1. Watch identity and image.
-2. Current price or offer.
+2. Current buying price, or the player's ask alongside the dealer's offer when selling.
 3. Dealer claim or response.
 4. Three rebuttal choices when active.
 5. Press-and-hold control when active.
@@ -181,6 +188,7 @@ The mechanic is working when:
 - Press meter zones and consequences.
 - Incorrect-response feedback.
 - Dealer-specific modifiers.
+- Dealer counteroffer movement and acceptable seller-concession ranges.
 - Whether a player can repeat a previously used fact.
 - How negotiation difficulty scales with location and watch value.
 

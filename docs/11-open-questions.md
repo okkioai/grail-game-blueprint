@@ -24,7 +24,7 @@ An open question does not make the entire system unconfirmed.
 | Negotiation | Three rebuttals, one strong answer | Visible watch knowledge becomes playable |
 | Negotiation input | Press and hold rather than slider/swipe | The signature action is one-thumb friendly |
 | Dealer patience | Runs down and ends in a final price | Haggling has a finite cost and shape |
-| Dealer selling | Every dealer buys every watch | The player always has a liquidity route |
+| Dealer selling | Every dealer buys every watch; the player sets the opening ask, argues for the watch, and chooses each concession | The player always has a liquidity route while retaining control of the selling price |
 | Dealer sourcing | From Sell, a dealer may request a model and quote a maximum Cash price for the next two Game Days | The player can identify an exit, source across channels, and attempt an arbitrage deal before demand expires |
 | Auction allowance | Two free entries per Game Day | Gold sells additional opportunity after a usable free allowance |
 | Marketplace supply | Owned watches are automatically discoverable | Buyers create demand; sellers need not maintain listings |
@@ -74,7 +74,8 @@ An open question does not make the entire system unconfirmed.
 - Does patience fall every round, every error, or both?
 - Can a fact be reused?
 - How does difficulty scale by dealer and location?
-- Does the final price improve, hold, or harden?
+- Does the final buying price improve, hold, or harden?
+- How far will each dealer move their counteroffer, and how do seller concessions affect acceptance?
 
 **Why it matters:** These rules determine whether negotiation feels strategic, readable, and replayable.
 

@@ -99,12 +99,13 @@ Wireframes should be inserted into the relevant system documents as they are app
 - Selected watch.
 - Acquisition cost.
 - Dealer specialty fit.
-- Opening Cash offer.
-- Value-supporting facts.
-- Selling pressure control.
-- Accept and leave actions.
+- Player-set opening asking price.
+- Dealer Cash counteroffer.
+- Value-supporting responses that all argue for the watch.
+- Hold-price and player-chosen Cash concession control.
+- Accept dealer offer and leave actions.
 
-**States:** Specialist offer, generalist offer, improved offer, final offer, sold, and declined.
+**States:** Setting opening ask, specialist counteroffer, generalist counteroffer, defending the watch, holding price, lowering price, matched price, final counteroffer, sold, and declined.
 
 ## WF-07 — Auction
 

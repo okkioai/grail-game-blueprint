@@ -93,19 +93,22 @@ If inventory is full, the game should stop the final purchase before Cash moves 
 
 ### Confirmed rule
 
-Every dealer buys every watch. A specialist gives a stronger opening offer and may show more patience for a watch in their area.
+Every dealer buys every watch. A specialist gives a stronger counteroffer and may show more patience for a watch in their area.
 
-This guarantees a liquidity route. The player is never permanently trapped with an unwanted watch simply because no perfect buyer appears.
+The player leads a dealer sale by setting an opening asking price. The dealer counters, and every player response argues in favor of the owned watch. After the argument, the player explicitly chooses whether to hold the ask or lower it by a chosen Cash amount. The sale completes when the player accepts the dealer's current offer or the dealer accepts the player's revised ask.
+
+This guarantees a liquidity route while letting the player control their own selling price. The player is never permanently trapped with an unwanted watch simply because no perfect buyer appears.
 
 ### Selling flow
 
 1. Select an owned watch.
 2. Choose an opened dealer.
-3. Review the dealer's Cash offer.
-4. See whether the watch matches the dealer's specialty.
-5. Use favorable watch facts to argue for a stronger offer.
-6. Accept the offer or leave with the watch.
-7. On acceptance, transfer the watch, receive Cash, free the slot, and earn Reputation.
+3. Set an opening asking price.
+4. Review the dealer's Cash counteroffer and specialty fit.
+5. Use favorable watch facts to defend the watch.
+6. Hold the asking price or lower it by a chosen Cash amount.
+7. Continue until the dealer accepts the revised ask, patience produces a final counteroffer, or the player accepts the dealer's current offer.
+8. On acceptance, transfer the watch, receive Cash, free the slot, and earn Reputation.
 
 Selling to a dealer should be faster and more reliable than waiting for a player buyer. The likely tradeoff is a lower return.
 
