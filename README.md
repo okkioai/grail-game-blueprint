@@ -45,8 +45,8 @@ Reinvest profit and build Reputation
 
 | Resource | Meaning | Used for |
 |---|---|---|
-| **Cash** | Working capital | Buying and selling watches; funding marketplace offers |
-| **Gold** | Access and acceleration | Opening locations, extra auction entries, capacity, and convenience |
+| **Cash** | Total working capital, including sale proceeds still clearing | Buying and selling watches; funding marketplace offers once available |
+| **Gold** | Access and acceleration | Opening locations, instant bank clearance, extra auction entries, and capacity |
 | **Reputation** | Permanent career progress | Revealing locations and unlocking long-term progression |
 
 The separation is fundamental. **Gold never buys watches and never converts directly to Cash.** Real-money spending may increase access and opportunity, but the watch economy remains a Cash economy.
@@ -56,6 +56,9 @@ The separation is fundamental. **Gold never buys watches and never converts dire
 - The player starts as a rookie dealer in a bedroom in New York City.
 - One Game Day lasts three real hours. There is no energy system or action limit.
 - The game grants Cash every seven real days to reopen opportunity.
+- A completed sale increases Cash immediately; the proceeds become Available Cash after bank clearance.
+- Bank clearance grows with the sale amount, from five minutes for entry-level transfers to twelve hours for the largest tier.
+- Gold can clear an earned sale immediately.
 - Reputation never decreases in the MVP.
 - Reputation reveals locations; Gold opens them permanently.
 - Players can always travel back to previously opened locations.
@@ -65,6 +68,8 @@ The separation is fundamental. **Gold never buys watches and never converts dire
 - Every dealer buys every watch, with stronger offers from specialists.
 - From **Sell**, the player can ask what a dealer needs; the dealer may name a model and maximum Cash price valid for the next two Game Days.
 - Two auction entries are free each Game Day; additional entries cost Gold.
+- Gold can permanently purchase more watch space and more marketplace offer capacity.
+- The Gold storefront launches with fixed packages from $1.99 to $49.99; package quantities remain an economy-tuning decision.
 - All player-owned watches are automatically discoverable in the marketplace.
 - Buyers post model-specific Cash offers; matching owners receive notifications.
 - The player begins with six watch slots and three active marketplace offer slots.
@@ -102,7 +107,7 @@ The separation is fundamental. **Gold never buys watches and never converts dire
 
 7. [Player marketplace](docs/07-player-marketplace.md)
 
-   Automatic discoverability, buyer offers, seller notifications, reserved Cash, and safeguards.
+   Automatic discoverability, buyer offers, seller notifications, Cash commitments, and safeguards.
 
 ### Supporting systems
 
@@ -116,7 +121,7 @@ The separation is fundamental. **Gold never buys watches and never converts dire
 
 10. [Wireframe plan](docs/10-wireframe-plan.md)
 
-    Thirteen screen briefs, required information, interaction states, and image conventions.
+    Fifteen screen briefs, required information, interaction states, and image conventions.
 
 11. [Open questions and decision log](docs/11-open-questions.md)
 

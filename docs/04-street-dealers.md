@@ -105,7 +105,7 @@ This guarantees a liquidity route. The player is never permanently trapped with 
 4. See whether the watch matches the dealer's specialty.
 5. Use favorable watch facts to argue for a stronger offer.
 6. Accept the offer or leave with the watch.
-7. On acceptance, transfer the watch, receive Cash, free the slot, and earn Reputation.
+7. On acceptance, transfer the watch, increase Cash, free the slot, and earn Reputation. The proceeds increase Available Cash after bank clearance or an optional Gold-based instant clearance.
 
 Selling to a dealer should be faster and more reliable than waiting for a player buyer. The likely tradeoff is a lower return.
 

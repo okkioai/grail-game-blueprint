@@ -19,6 +19,8 @@ An open question does not make the entire system unconfirmed.
 | Time | One Game Day equals three real hours | Eight opportunity-refresh cycles occur per real day |
 | Player actions | No energy system or action limit | The market refreshes, but the game does not stop play |
 | Cash support | Game grants Cash every seven real days | Recovery is predictable and separate from Game Days |
+| Bank clearance | A completed sale increases Cash immediately; Available Cash increases after an amount-based wait from five minutes to twelve hours | Gold can accelerate access to earned proceeds without creating Cash |
+| Cash display | The global economy shows Cash and Available Cash only | Sale transactions and offers explain why part of Cash is unavailable without adding more balances |
 | Dealer stock | Up to five watches, rotating over time | Storefronts stay readable and refreshable |
 | Inspection | Known facts appear on the first watch screen | No compulsory multi-tap ritual |
 | Negotiation | Three rebuttals, one strong answer | Visible watch knowledge becomes playable |
@@ -29,8 +31,10 @@ An open question does not make the entire system unconfirmed.
 | Auction allowance | Two free entries per Game Day | Gold sells additional opportunity after a usable free allowance |
 | Marketplace supply | Owned watches are automatically discoverable | Buyers create demand; sellers need not maintain listings |
 | Marketplace trade | Buyer posts Cash offer; matching owners are notified | First valid owner acceptance completes the transfer |
-| Offer capacity | Three active slots initially | Gold may expand parallel demand, not watch purchasing power |
+| Offer capacity | Three active slots initially; Gold permanently adds more | Paid capacity expands parallel demand, not watch purchasing power |
 | Starting inventory | Six watch slots | Ownership has a clear opportunity cost |
+| Watch capacity | Gold purchases permanent watch-space expansion; Reputation also provides a progression path | Paid capacity accelerates growth without making the free route impossible |
+| Gold storefront | Five fixed package price points from $1.99 to $49.99 | Players can purchase Gold directly without Cash, watches, or randomized contents in standard packages |
 | Catalog | Roughly six to ten families | MVP favors depth and variation over breadth |
 | Currency boundary | Cash buys watches; Gold buys access and speed | Real-money currency cannot directly purchase inventory |
 
@@ -55,6 +59,18 @@ An open question does not make the entire system unconfirmed.
 - Is there a maximum accumulation?
 
 **Why it matters:** Too much Cash makes profit irrelevant; too little fails to recover a stuck player.
+
+### Bank clearance
+
+- Which Cash thresholds map to the clearance-time tiers?
+- What are the intermediate durations between five minutes and twelve hours?
+- Does every sale channel use the same curve?
+- Does the seven-day Cash grant become Available Cash immediately?
+- How much Gold clears a transfer?
+- Does the Gold cost depend on original duration, remaining duration, or a fixed tier?
+- Can more than one completed sale clear simultaneously?
+
+**Why it matters:** Bank clearance is the primary repeatable time-skip purchase. It must create a meaningful choice without leaving a player unable to continue dealing.
 
 ### Reputation
 
@@ -126,6 +142,8 @@ An open question does not make the entire system unconfirmed.
 - Is Gold expansion permanent?
 - How early can a player buy capacity?
 - How does the game handle an auction when the final slot disappears?
+- Does Gold buy individual watch spaces or staged box upgrades?
+- What is the maximum Gold-purchased capacity?
 
 **Why it matters:** Capacity must create strategy without becoming a constant frustration or disappearing too early.
 
@@ -147,6 +165,9 @@ An open question does not make the entire system unconfirmed.
 - Which expedited processes exist at launch?
 - Are convenience purchases permanent or consumable?
 - What free allowance makes every system genuinely usable?
+- How much Gold is included in each $1.99, $4.99, $9.99, $19.99, and $49.99 package?
+- What transparent value bonus does each larger package receive?
+- How are package prices localized by platform and region?
 
 **Why it matters:** Gold must support the business without undermining the core watch economy.
 
@@ -154,7 +175,7 @@ An open question does not make the entire system unconfirmed.
 
 1. **Dealer transaction vertical slice** — fact sheet, buying negotiation, inventory, and dealer sale.
 2. **Negotiation tuning prototype** — rebuttal consequences, pressure meter, and patience curves.
-3. **Economy simulation** — Cash flow, dealer spreads, inventory lock-up, and seven-day recovery.
+3. **Economy simulation** — Cash flow, dealer spreads, inventory lock-up, bank-clearance tiers, Gold costs, storefront quantities, and seven-day recovery.
 4. **Auction prototype** — bid rhythm, NPC ceilings, and projected margin.
 5. **Marketplace service model** — matching, reservation, server-authoritative acceptance, and abuse cases.
 6. **Progression model** — Reputation cadence, location thresholds, Gold rewards, and expansion timing.

@@ -67,6 +67,11 @@ It should reopen play without making successful dealing irrelevant.
 
 ### Cash: the watch economy
 
+The interface exposes two Cash figures:
+
+- **Cash** is the player's total money, including proceeds from completed sales that are still clearing at the bank.
+- **Available Cash** is the portion currently cleared and usable for purchases, bids, and marketplace offers.
+
 Cash is used to:
 
 - Buy watches from dealers.
@@ -81,15 +86,25 @@ Cash is received from:
 
 Cash should be legible as working capital. When it is tied up in watches or reserved for offers, the player has fewer available opportunities.
 
+### Bank clearance
+
+Every completed sale increases Cash immediately. The sale proceeds increase Available Cash only after the bank clears the transfer.
+
+Clearance time is based on transaction size. The larger the sale, the longer the wait. The current target curve begins at **five minutes** for an entry-level transfer and reaches **twelve hours** for the largest tier. Exact Cash thresholds and intermediate durations remain economy-simulation questions.
+
+The sale transaction displays its remaining clearance time. The global economy does not introduce separate Pending Cash or Reserved Cash balances. Instead, Cash shows the total, Available Cash shows what can be used now, and the relevant transaction or marketplace offer explains the difference.
+
+Gold can clear an earned sale immediately. This accelerates access to existing Cash; it does not create Cash, increase the sale price, or purchase a watch.
+
 ### Gold: access and acceleration
 
 Gold is earned through progression and can also be purchased. It may be used to:
 
 - Open a location after its Reputation requirement is met.
 - Enter more than two auctions in a Game Day.
-- Unlock more active marketplace offer slots.
-- Expand inventory capacity sooner.
-- Expedite selected processes or reveal more opportunities, where later design supports it.
+- Permanently unlock more active marketplace offer slots.
+- Permanently purchase more watch space.
+- Clear an earned sale immediately instead of waiting for the bank.
 
 Gold never:
 
@@ -100,6 +115,24 @@ Gold never:
 - Converts directly into Cash.
 
 This is the central fairness boundary for monetization.
+
+### Gold storefront
+
+Players can purchase packages of Gold from a dedicated storefront reached by tapping the Gold balance.
+
+The initial package ladder is:
+
+| Package | Price |
+|---|---:|
+| Gold Clip | $1.99 |
+| Gold Roll | $4.99 |
+| Gold Case | $9.99 |
+| Gold Safe | $19.99 |
+| Gold Vault | $49.99 |
+
+Exact Gold quantities and larger-package bonuses remain open until the Gold costs of locations, watch space, offer slots, auction entries, and bank clearance are simulated together. The launch storefront does not require a $99.99 package.
+
+The store shows the current Gold balance, exact package contents, local purchase price, and honest value comparison. Standard packages do not contain Cash, watches, randomized rewards, or mystery contents.
 
 ### Reputation: permanent progress
 
@@ -123,6 +156,7 @@ The economy should produce several understandable tensions:
 - A dealer request may reveal a profitable exit, but the player still has to source the right watch before the two-Game-Day window closes.
 - A full watch box may force a sale before the player can acquire another opportunity.
 - A marketplace offer reserves Cash that could otherwise fund a dealer purchase.
+- A completed sale may increase total Cash while the player waits for the proceeds to become Available Cash.
 - An auction can remain attractive while each bid narrows the expected margin.
 - Gold may unlock more opportunity, but the player still needs Cash to act on it.
 
@@ -141,11 +175,12 @@ Recovery should take a player back to meaningful decisions, not remove the conse
 
 Every purchase screen should distinguish:
 
-- Total Cash.
+- Cash.
 - Available Cash.
-- Cash reserved in marketplace offers.
 - Inventory capacity.
 - The exact amount that will leave or enter the account.
+
+Individual sale and marketplace-offer screens must explain why Cash is not currently available without creating additional top-level balances.
 
 Timers should name their cadence explicitly. “Next Game Day” and “Next Cash grant” cannot look like the same system.
 
@@ -155,6 +190,10 @@ Timers should name their cadence explicitly. “Next Game Day” and “Next Cas
 - Weekly grant amount, scaling, and accumulation.
 - Which actions earn Gold through progress.
 - Gold price ladder for access and capacity.
+- Cash thresholds and intermediate durations between the five-minute and twelve-hour bank-clearance endpoints.
+- Gold cost of instant clearance and whether it scales with remaining time.
+- Whether every sale channel uses the same clearance curve.
+- Exact Gold quantities and package bonuses in the storefront.
 - Cash reservation and cancellation behavior.
 - Inflation controls for the player marketplace.
 - Whether dealer refreshes are identical at every Game Day boundary.

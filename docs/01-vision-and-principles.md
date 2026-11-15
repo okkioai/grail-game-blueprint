@@ -73,7 +73,7 @@ This makes experimentation safer and progression easier to understand. A poor de
 
 ### 6. Monetization expands opportunity
 
-Gold can open locations, add capacity, buy extra auction entries, and expedite selected processes. Gold never purchases a watch and never converts directly to Cash.
+Gold can open locations, permanently add capacity, buy extra auction entries, and instantly clear proceeds the player has already earned from a sale. Gold never purchases a watch and never converts directly to Cash.
 
 The player may pay for broader or faster access, but still has to judge the deal and fund the watch through the Cash economy.
 

@@ -25,7 +25,7 @@ Before entering, the player should see:
 - Current or opening price.
 - Expected bid increment.
 - Projected resale range, when available.
-- Available Cash.
+- Available Cash, not merely total Cash.
 - Remaining free entries.
 - The Gold cost if free entries are exhausted.
 
@@ -46,7 +46,7 @@ If the auction becomes unavailable before the player can bid, the entry should b
 5. See the projected margin update after every increase.
 6. Continue or drop out.
 7. Win when no competing bidder accepts the next increment.
-8. Pay Cash and move the watch into inventory.
+8. Pay with Available Cash and move the watch into inventory.
 
 The bid control should be press-based and deliberate. A confirmation treatment may be needed for unusually large or margin-destroying bids.
 
@@ -100,7 +100,7 @@ The game should prevent entry when the player cannot complete a plausible purcha
 
 ## Gold boundary
 
-Gold buys another opportunity to participate after the two free entries. It does not:
+Gold buys another auction entry after the two free entries in the current Game Day. It does not:
 
 - Place a bid.
 - Improve the player's priority.
@@ -113,7 +113,7 @@ Gold buys another opportunity to participate after the two free entries. It does
 The auction interface needs two screens or states:
 
 1. **Lot preview:** facts, price context, entry cost, and decision to participate.
-2. **Active bidding:** current bid, next increment, projected margin, Cash, NPC presence, and a large bid/drop-out decision.
+2. **Active bidding:** current bid, next increment, projected margin, Available Cash, NPC presence, and a large bid/drop-out decision.
 
 The active screen must make accidental bids difficult while remaining fast enough to feel live.
 

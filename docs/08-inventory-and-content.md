@@ -41,11 +41,11 @@ The warning should appear before the final commitment, not as a surprise afterwa
 
 ## Capacity progression
 
-Reputation can unlock larger watch boxes as permanent progression. Gold may provide earlier expansion.
+Reputation can unlock larger watch boxes as permanent progression. Gold can also purchase permanent watch-space expansion.
 
 The free path must remain credible. Gold is an acceleration option, not the only practical way to continue dealing.
 
-Expansion should be paced so that inventory remains a meaningful constraint at higher levels.
+Expansion should be paced so that inventory remains a meaningful constraint at higher levels. Whether Gold purchases individual slots or staged box upgrades remains open.
 
 ## MVP catalog size
 
@@ -174,7 +174,7 @@ For the MVP, depth is more valuable than breadth. A smaller catalog should still
 - Value ranges and rarity weights.
 - Which facts appear on each watch state.
 - Reputation thresholds for larger boxes.
-- Gold cost of early capacity.
-- Whether inventory expansion is permanent only.
+- Gold cost of permanent capacity.
+- Whether Gold purchases individual slots or staged box upgrades, and the maximum capacity.
 - Image-production pipeline for all variants.
 

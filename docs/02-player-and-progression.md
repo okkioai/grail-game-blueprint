@@ -111,7 +111,7 @@ The preview period matters. A location should become an aspiration, not appear a
 
 ## Inventory progression
 
-The player begins with six watch slots. Larger watch boxes can unlock through Reputation as permanent progression. Gold may allow earlier expansion, provided the free progression path remains usable.
+The player begins with six watch slots. Larger watch boxes can unlock through Reputation as permanent progression. Gold can also purchase permanent watch-space expansion, provided the free progression path remains usable.
 
 Inventory expansion should be meaningful but not eliminate scarcity too quickly. The strategic question—what deserves a slot?—should survive throughout the game.
 

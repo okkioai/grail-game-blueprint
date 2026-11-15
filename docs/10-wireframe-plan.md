@@ -15,6 +15,7 @@ Wireframes should be inserted into the relevant system documents as they are app
 **Required elements:**
 
 - Cash, Gold, and Reputation.
+- Cash and Available Cash as distinct figures.
 - Game Day timer.
 - Watch box and capacity.
 - Location/street access.
@@ -22,6 +23,7 @@ Wireframes should be inserted into the relevant system documents as they are app
 - Marketplace.
 - Current notifications.
 - Cash grant state.
+- Gold-store entry from the Gold balance.
 
 **States:** Normal, Cash grant available, inventory full, new location revealed, and marketplace notification.
 
@@ -103,6 +105,7 @@ Wireframes should be inserted into the relevant system documents as they are app
 - Value-supporting facts.
 - Selling pressure control.
 - Accept and leave actions.
+- Cash, Available Cash, and bank-clearance result after the sale.
 
 **States:** Specialist offer, generalist offer, improved offer, final offer, sold, and declined.
 
@@ -165,6 +168,7 @@ Wireframes should be inserted into the relevant system documents as they are app
 - Acquisition cost or alternative-value context.
 - First-acceptance warning.
 - Accept and ignore.
+- Bank-clearance result after a successful transfer.
 
 **States:** New offer, multiple eligible watches, already accepted elsewhere, successful transfer, stale watch state, and expired offer.
 
@@ -217,6 +221,41 @@ Wireframes should be inserted into the relevant system documents as they are app
 - Return-to-dealer action after acquisition.
 
 **States:** No current request, new request, active request, matching watch owned, non-matching variant, fulfilled request, and expired request.
+
+## WF-14 — Bank clearance
+
+**Purpose:** Explain why completed sale proceeds belong to the player but are not yet available to spend, and offer a clear Gold-based instant-clearance choice.
+
+**Required elements:**
+
+- Cash.
+- Available Cash.
+- Completed sale amount.
+- Remaining bank-clearance time.
+- Clearance tier based on transaction size.
+- Gold cost for instant clearance.
+- Normal wait and instant-clear actions.
+
+**States:** Five-minute entry-level transfer, intermediate transfer, twelve-hour highest-tier transfer, partially elapsed timer, insufficient Gold, instantly cleared, and normally cleared.
+
+## WF-15 — Gold storefront
+
+**Purpose:** Let the player understand and purchase fixed packages of Gold without confusing Gold with Cash or watch inventory.
+
+**Required elements:**
+
+- Current Gold balance.
+- Gold Clip at $1.99.
+- Gold Roll at $4.99.
+- Gold Case at $9.99.
+- Gold Safe at $19.99.
+- Gold Vault at $49.99.
+- Exact Gold quantity in each package once tuned.
+- Honest larger-package value comparison.
+- Purchase confirmation and recovery for interrupted transactions.
+- Link back to the Gold-funded action that opened the store, where applicable.
+
+**States:** Normal store, purchase in progress, successful purchase, cancelled purchase, failed purchase, reconciled interrupted purchase, and unavailable regional product.
 
 ## Review checklist
 

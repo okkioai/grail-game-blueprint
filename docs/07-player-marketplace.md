@@ -53,7 +53,7 @@ The criteria should be broad enough to produce matches while still allowing mean
 3. The notification identifies the targeted watch and Cash amount.
 4. The owner reviews and accepts or ignores the offer.
 5. The first valid acceptance wins.
-6. The watch and reserved Cash transfer immediately.
+6. The watch transfers immediately. The seller's Cash increases, and the proceeds become Available Cash after bank clearance or an optional Gold-based instant clearance.
 7. Other matching notifications become unavailable.
 
 The acceptance screen should clearly state that another owner may accept first.
@@ -70,25 +70,21 @@ Privacy, player identity, and whether an owner can temporarily exclude a watch r
 
 ## Cash reservation
 
-When an offer is posted, its full Cash value is reserved. Reserved Cash cannot be used to buy another watch or fund another offer.
+When an offer is posted, its full Cash value is reserved. That commitment reduces Available Cash and cannot be used to buy another watch or fund another offer.
 
 Reservation prevents a buyer from posting more commitments than they can honor. It also creates a strategic cost: a broad offer may find a watch, but the locked Cash reduces other buying power.
 
-The interface must distinguish:
-
-- Total Cash.
-- Available Cash.
-- Cash reserved in active offers.
+The global interface shows only Cash and Available Cash. Cash remains the total; Available Cash falls when an offer reserves funds. Each active offer shows its own committed amount so the player can understand the difference without introducing a third balance.
 
 ## Offer capacity
 
 ### Confirmed rule
 
-The player begins with **three free active offer slots**. Gold can unlock more capacity.
+The player begins with **three free active offer slots**. Gold permanently unlocks more capacity.
 
 Gold purchases the ability to pursue more opportunities in parallel. It does not improve an offer's Cash value or priority.
 
-Capacity may be a permanent account upgrade or another form of expansion; the exact product treatment still needs confirmation.
+The number of slots added by each Gold purchase and the capacity ceiling remain tuning decisions.
 
 ## Matching rules
 
@@ -141,16 +137,16 @@ The two exits should have different strengths:
 
 | Dealer sale | Marketplace sale |
 |---|---|
-| Immediate and dependable | Potentially stronger price |
+| Immediate and dependable offer | Potentially stronger price |
 | Every dealer buys every watch | Requires a matching active buyer |
 | Specialty changes the offer | Exact criteria determine eligibility |
-| Fast liquidity | May require waiting |
+| Known exit before the sale | May require waiting for a matching buyer |
 
 This gives the owner a real decision between speed and expected return.
 
 ## Gold boundary
 
-Gold may unlock more active offer slots. Gold never:
+Gold permanently unlocks more active offer slots. Gold never:
 
 - Replaces the Cash offer.
 - Forces an owner to accept.
@@ -166,14 +162,14 @@ The marketplace needs at least three core views:
 2. **Active offers:** reserved Cash, match status, and management actions.
 3. **Seller notification:** targeted watch, offer value, and accept/ignore decision.
 
-Empty, full-capacity, insufficient-Cash, expired, and already-accepted states must be designed deliberately.
+Empty, full-capacity, insufficient-Available-Cash, expired, and already-accepted states must be designed deliberately.
 
 ## Open tuning
 
 - Offer duration and cancellation timing.
 - Whether buyers can edit an offer.
 - Whether owners can hide a watch.
-- Permanent versus temporary offer-slot expansion.
+- Number of permanent slots added per Gold purchase and the maximum capacity.
 - Gold cost for capacity.
 - Price bounds and abuse controls.
 - Fees, if any.

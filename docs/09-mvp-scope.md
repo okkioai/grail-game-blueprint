@@ -15,9 +15,13 @@ It does not need to simulate the entire watch industry. It needs to make finding
 - Rookie dealer starting in a New York City bedroom.
 - Cash, Gold, and permanent Reputation.
 - Six-slot starting watch box.
+- Permanent watch-space and marketplace-offer capacity purchasable with Gold alongside free progression.
 - Location progression and return travel.
 - One Game Day every three real hours.
 - Cash grant every seven real days.
+- Cash and Available Cash with amount-based bank clearance from five minutes to twelve hours.
+- Gold-based instant clearance of earned sale proceeds.
+- Gold storefront with five launch package price points from $1.99 to $49.99.
 
 ### Street dealing
 
@@ -150,5 +154,5 @@ A system is ready for a first wireframe when:
 - Important empty, error, and completion states are named.
 - Unresolved tuning does not change the fundamental layout.
 
-The [wireframe plan](10-wireframe-plan.md) applies this test to thirteen core views.
+The [wireframe plan](10-wireframe-plan.md) applies this test to fifteen core views.
 
