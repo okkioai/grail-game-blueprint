@@ -54,15 +54,30 @@ After a correct rebuttal, the player presses and holds a large button. A meter f
 
 This action replaces a slider because pressing is more comfortable on mobile and creates a short physical beat without requiring a swipe.
 
+### Confirmed pressure model
+
+Pressure is a read-the-dealer decision, not a fixed percentage timing test. Each dealer has a recognizable tolerance, and that tolerance shifts between rounds. The interface does not reveal an exact success range.
+
+As the player holds, the dealer moves through four legible states:
+
+1. **Unmoved:** the argument has not created enough pressure; releasing produces no concession.
+2. **Engaged:** the argument has landed; releasing earns a normal concession.
+3. **Guarded:** the dealer is near the limit; releasing can earn a larger concession but consumes more patience.
+4. **Angry:** the player pushed past the dealer's limit; the price hardens and extra patience is lost.
+
+Body posture is the primary signal: lean-in, head movement, closing arms, withdrawal, or a sharp angry reaction. Short live text must mirror every posture so the mechanic remains understandable with reduced motion, without audio, and without relying on color.
+
+Dealer personalities determine the shape of the interaction. A short-tempered dealer reaches guarded and angry states sooner; a patient dealer tolerates a longer hold. The thresholds can move, but the progression of tells must remain learnable rather than arbitrary.
+
 The control should communicate:
 
 - When pressure begins.
 - How much has accumulated.
-- Whether the player has reached a useful zone.
+- Whether the dealer is unmoved, engaged, guarded, or angry.
 - When to release.
 - The dealer's reaction as pressure increases.
 
-The mechanic should not become a narrow reflex test. Knowledge remains the primary source of advantage.
+The mechanic should not become a narrow reflex test. Knowledge and reading character behavior remain the primary sources of advantage.
 
 ## Step 4: Dealer response
 
@@ -182,7 +197,7 @@ The mechanic is working when:
 
 - Round count and patience values.
 - Price reduction range per successful round.
-- Press meter zones and consequences.
+- Exact dealer-specific pressure thresholds and concession values.
 - Incorrect-response feedback.
 - Dealer-specific modifiers.
 - Whether a player can repeat a previously used fact.
