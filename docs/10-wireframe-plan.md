@@ -15,14 +15,13 @@ Wireframes should be inserted into the relevant system documents as they are app
 **Required elements:**
 
 - Cash, Available Cash, Gold, and the game clock in the persistent top bar.
-- Every current notification in reverse chronological order.
-- Clear unread and read states.
+- Every current event in reverse chronological order as a large activity card.
+- Feed cards have no read/unread status or inbox-management actions.
 - Event time without exposing real-world clock time.
-- A mark-all-read action.
 - Persistent bottom navigation to Streets, Watch Box, Career, and Marketplace.
 - Gold-store entry from the Gold balance.
 
-**States:** Empty feed, unread events, all events read, dense history, new location revealed, and marketplace notification.
+**States:** Empty feed, dense history, new location revealed, and marketplace notification.
 
 ## WF-02 — Location and dealer selection
 
