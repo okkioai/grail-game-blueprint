@@ -8,9 +8,21 @@ The first wireframe pass should test information hierarchy, player decisions, an
 
 Wireframes should be inserted into the relevant system documents as they are approved. Source and export files should also live under [`docs/images/`](images/README.md) using the naming convention described there.
 
-## WF-01 — Activity feed
+## Approved visual-design rollout
 
-**Purpose:** Give the player one chronological view of recent game events while persistent navigation provides routes into the game.
+The implementation may advance approved Figma-designed routes beyond wireframe fidelity without implying that unresolved rules or tuning have been decided.
+
+- Finished Figma screens establish the shared dark exchange aesthetic, typography, spacing, surfaces, yellow action accent, watch presentation, dealer presentation, and floating five-item navigation.
+- Routes without a finished design adopt the shared shell and tokens while retaining their functional wireframe layouts and clearly labeled placeholder art.
+- Current blueprint behavior takes precedence when a design mockup shows older copy, navigation, currency, or transaction behavior.
+- Exact approved project assets should be exported from Figma. Missing watch/location art may use the closest approved watch/location image temporarily; missing character art remains a labeled styled placeholder and must not reuse another character.
+- The activity feed lives inside **Your room**. The persistent dock labels are Room, Watch Box, Market, Streets, and Career. Store remains reachable from Your room and every insufficient-Gold flow.
+- A completed dealer purchase goes directly to a visible **Deal sealed / It’s yours** result with the settled price, savings, remaining Cash, and watch-box occupancy.
+- The rollout does not add a fake operating-system status bar and does not change economy, negotiation, progression, auction, or marketplace rules.
+
+## WF-01 — Your room and activity feed
+
+**Purpose:** Give the player a personal New York home screen with collection and Store entry points plus one chronological view of recent game events.
 
 **Required elements:**
 
@@ -18,8 +30,10 @@ Wireframes should be inserted into the relevant system documents as they are app
 - Every current event in reverse chronological order as a large activity card.
 - Feed cards have no read/unread status or inbox-management actions.
 - Event time without exposing real-world clock time.
-- Persistent bottom navigation to Streets, Watch Box, Career, and Marketplace.
+- Persistent bottom navigation to Room, Watch Box, Market, Streets, and Career.
 - Gold-store entry from the Gold balance.
+- Collection summary and Watch Box entry.
+- Store entry from the room.
 
 **States:** Empty feed, dense history, new location revealed, and marketplace notification.
 
@@ -179,7 +193,7 @@ Wireframes should be inserted into the relevant system documents as they are app
 - Acquisition cost.
 - Estimated range.
 - Condition, completeness, and configuration.
-- Dealer sell action.
+- No direct dealer-sell action; selling begins by visiting a dealer and choosing Sell.
 - Marketplace status.
 - Capacity progress or expansion.
 

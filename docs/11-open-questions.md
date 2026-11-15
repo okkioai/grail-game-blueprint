@@ -27,6 +27,7 @@ An open question does not make the entire system unconfirmed.
 | Negotiation input | Press and hold rather than slider/swipe | The signature action is one-thumb friendly |
 | Dealer patience | Runs down and ends in a final price | Haggling has a finite cost and shape |
 | Dealer selling | Every dealer buys every watch | The player always has a liquidity route |
+| Dealer-sale entry | Selling begins at a dealer storefront; Watch Box does not expose a direct sell action | The player chooses the buyer before entering the mirrored negotiation |
 | Dealer sourcing | From Sell, a dealer may request a model and quote a maximum Cash price for the next two Game Days | The player can identify an exit, source across channels, and attempt an arbitrage deal before demand expires |
 | Auction allowance | Two free entries per Game Day | Gold sells additional opportunity after a usable free allowance |
 | Marketplace supply | Owned watches are automatically discoverable | Buyers create demand; sellers need not maintain listings |
@@ -35,6 +36,8 @@ An open question does not make the entire system unconfirmed.
 | Starting inventory | Six watch slots | Ownership has a clear opportunity cost |
 | Watch capacity | Gold purchases permanent watch-space expansion; Reputation also provides a progression path | Paid capacity accelerates growth without making the free route impossible |
 | Gold storefront | Five fixed package price points from $1.99 to $49.99 | Players can purchase Gold directly without Cash, watches, or randomized contents in standard packages |
+| Home and navigation | The activity feed lives in Your room; the dock is Room, Watch Box, Market, Streets, and Career | Collection and Store access are anchored at home while persistent navigation stays compact |
+| Visual rollout | Approved Figma screens may advance beyond wireframes; unfinished routes inherit the shared shell and retain placeholders | Visual maturity can progress without deciding open game rules |
 | Catalog | Roughly six to ten families | MVP favors depth and variation over breadth |
 | Currency boundary | Cash buys watches; Gold buys access and speed | Real-money currency cannot directly purchase inventory |
 
