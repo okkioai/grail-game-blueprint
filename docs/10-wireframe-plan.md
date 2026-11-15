@@ -250,6 +250,7 @@ Wireframes should be inserted into the relevant system documents as they are app
 - Honest larger-package value comparison.
 - Purchase confirmation and recovery for interrupted transactions.
 - Link back to the Gold-funded action that opened the store, where applicable.
+- Automatic Store routing when a Gold-funded action is attempted with an insufficient balance.
 
 **States:** Normal store, purchase in progress, successful purchase, cancelled purchase, failed purchase, reconciled interrupted purchase, and unavailable regional product.
 

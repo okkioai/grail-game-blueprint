@@ -120,6 +120,8 @@ This is the central fairness boundary for monetization.
 
 Players can purchase packages of Gold from a dedicated storefront reached by tapping the Gold balance.
 
+If the player attempts any Gold-funded action without enough Gold, the interface opens this storefront with the attempted action and shortage explained. The player must be able to return directly to that action afterward.
+
 The initial package ladder is:
 
 | Package | Price |
