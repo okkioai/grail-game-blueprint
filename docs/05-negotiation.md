@@ -39,8 +39,12 @@ The game presents three text responses. One is the correct rebuttal because it u
 A good response set should contain:
 
 - One factually relevant rebuttal.
-- One true but commercially irrelevant observation.
-- One weak, unsupported, or socially poor response.
+- One true and commercially plausible observation that attacks the wrong part of the dealer's claim.
+- One relevant-sounding commercial argument whose conclusion is not well supported by the known facts.
+
+All three choices should be credible at first glance and comparable in length, confidence, specificity, and commercial vocabulary. The correct response must not occupy a fixed screen position, and the interface must not label the exact fact that resolves the claim. The challenge is recognizing which argument directly answers what the dealer just said, not spotting the only polished sentence.
+
+Dealer claims and player responses should read as a continuing spoken exchange: short, natural, character-specific, and allowed to carry friction, humor, or attitude. Avoid sterile appraisal language and repeated templates unless they are a deliberate part of that character's voice.
 
 The system tests attention and judgment, not obscure real-world trivia. Every required fact must already be visible on the fact sheet.
 
