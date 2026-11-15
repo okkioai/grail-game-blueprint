@@ -8,24 +8,21 @@ The first wireframe pass should test information hierarchy, player decisions, an
 
 Wireframes should be inserted into the relevant system documents as they are approved. Source and export files should also live under [`docs/images/`](images/README.md) using the naming convention described there.
 
-## WF-01 — Room hub
+## WF-01 — Activity feed
 
-**Purpose:** Establish the headquarters and provide clear routes into the game.
+**Purpose:** Give the player one chronological view of recent game events while persistent navigation provides routes into the game.
 
 **Required elements:**
 
-- Cash, Gold, and Reputation.
-- Cash and Available Cash as distinct figures.
-- Game Day timer.
-- Watch box and capacity.
-- Location/street access.
-- Auctions.
-- Marketplace.
-- Current notifications.
-- Cash grant state.
+- Cash, Available Cash, Gold, and the game clock in the persistent top bar.
+- Every current notification in reverse chronological order.
+- Clear unread and read states.
+- Event time without exposing real-world clock time.
+- A mark-all-read action.
+- Persistent bottom navigation to Streets, Watch Box, Career, and Marketplace.
 - Gold-store entry from the Gold balance.
 
-**States:** Normal, Cash grant available, inventory full, new location revealed, and marketplace notification.
+**States:** Empty feed, unread events, all events read, dense history, new location revealed, and marketplace notification.
 
 ## WF-02 — Location and dealer selection
 
