@@ -8,6 +8,20 @@ Street dealers are the main repeatable activity in GRAIL. They give the market a
 
 Each dealer is a persistent named character with a backstory, visual identity, specialty, and recognizable commercial behavior. The player should gradually learn how different dealers price, argue, and buy.
 
+## Confirmed New York dealer: Benny “Two-Tone” Adler
+
+Benny is a 65-year-old Jewish immigrant and former lockpicker who found his second trade in watches. He is a formidable mental mathematician, protects every dollar of margin, takes no nonsense, and has a short temper when somebody wastes his time or tries to bluff him.
+
+His humor is dry, argumentative, self-aware, and rooted in a Jewish comedic sensibility that punctures pretension and turns complaints into punchlines. Write him as a specific person, never as an accent or cultural caricature. Avoid decorative Yiddish, religious jokes, and stereotypes about Jewish people and money. His financial skill comes from his personal history and years of dealing.
+
+In negotiation, Benny should:
+
+- Catch weak arithmetic immediately.
+- Respect a player who did the homework, even while complaining about conceding.
+- Use short jokes and irritated asides rather than long speeches.
+- Escalate quickly when the player makes a lazy argument or pushes too far.
+- Remain commercially legible: personality must never obscure the watch fact or price claim being tested.
+
 ## Dealer stock
 
 ### Confirmed rule
