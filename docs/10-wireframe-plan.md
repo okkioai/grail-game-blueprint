@@ -188,7 +188,11 @@ The implementation may advance approved Figma-designed routes beyond wireframe f
 
 **Required elements:**
 
-- Six starting slots.
+- Inventory and Album views under the unchanged Watch Box title.
+- Six starting inventory slots.
+- An Album card for every catalog model, with the model name always visible.
+- Album artwork absent until first ownership, then permanently revealed even after sale.
+- A one-at-a-time card flip revealing concise brand and model-history notes.
 - Watch image and identity.
 - Acquisition cost.
 - Estimated range.
@@ -197,7 +201,7 @@ The implementation may advance approved Figma-designed routes beyond wireframe f
 - Marketplace status.
 - Capacity progress or expansion.
 
-**States:** Open slot, full box, pending offer, newly acquired watch, selected watch, and capacity expansion.
+**States:** Open slot, full box, pending offer, newly acquired watch, selected watch, capacity expansion, undiscovered Album model, newly revealed Album model, previously owned but no-longer-held model, and one flipped Album card.
 
 ## WF-12 — Progression and grants
 
