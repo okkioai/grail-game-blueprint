@@ -45,12 +45,11 @@ The implementation may advance approved Figma-designed routes beyond wireframe f
 
 - Location list or map.
 - Reputation requirement.
-- Gold opening cost.
 - Permanent-open state.
 - Dealer portraits and specialties.
 - Stock refresh timer.
 
-**States:** Unrevealed, Reputation-gated, qualified but unopened, opened, and return to earlier location.
+**States:** Visible with no progress, partially progressed, Reputation threshold reached, opened, and return to earlier location.
 
 ## WF-03 — Dealer storefront
 
@@ -206,19 +205,20 @@ The implementation may advance approved Figma-designed routes beyond wireframe f
 
 ## WF-12 — Progression and grants
 
-**Purpose:** Explain permanent Reputation progress, location opening, and the separate seven-day Cash grant.
+**Purpose:** Make career advancement legible through Cities and challenge-based Badges while retaining the separate seven-day Cash grant.
 
 **Required elements:**
 
 - Current Reputation.
-- Next threshold.
-- Revealed location.
-- Gold opening cost.
+- Cities above Badges.
+- A row of circular City progress indicators driven by Reputation.
+- Automatic permanent city access when its Reputation threshold is reached.
+- A row of circular Badge indicators with visible challenge requirements and partial progress.
 - Rewarded Gold where applicable.
 - Cash grant countdown and amount.
 - Permanent-access confirmation.
 
-**States:** Progressing, threshold reached, insufficient Gold, location opened, grant upcoming, grant available, and grant received.
+**States:** City not started, city partially progressed, city opened, Badge not started, Badge in progress, Badge earned, grant upcoming, grant available, and grant received.
 
 ## WF-13 — Dealer sourcing request
 

@@ -100,7 +100,6 @@ Gold can clear an earned sale immediately. This accelerates access to existing C
 
 Gold is earned through progression and can also be purchased. It may be used to:
 
-- Open a location after its Reputation requirement is met.
 - Enter more than two auctions in a Game Day.
 - Permanently unlock more active marketplace offer slots.
 - Permanently purchase more watch space.
@@ -132,7 +131,7 @@ The initial package ladder is:
 | Gold Safe | $19.99 |
 | Gold Vault | $49.99 |
 
-Exact Gold quantities and larger-package bonuses remain open until the Gold costs of locations, watch space, offer slots, auction entries, and bank clearance are simulated together. The launch storefront does not require a $99.99 package.
+Exact Gold quantities and larger-package bonuses remain open until the Gold costs of watch space, offer slots, auction entries, and bank clearance are simulated together. The launch storefront does not require a $99.99 package.
 
 The store shows the current Gold balance, exact package contents, local purchase price, and honest value comparison. Standard packages do not contain Cash, watches, randomized rewards, or mystery contents.
 
@@ -145,7 +144,7 @@ Reputation is earned through meaningful play and used as a requirement for progr
 Each resource answers a different question:
 
 - **Cash:** Can I afford this watch?
-- **Gold:** Can I access more opportunity or get there sooner?
+- **Gold:** Can I expand optional capacity or get there sooner?
 - **Reputation:** Has my career progressed far enough?
 
 Combining these roles would weaken the strategy. If Gold bought watches, spending could bypass the core judgment loop. If Reputation were spendable, career progress would become harder to read. If Cash opened every system, a weak trading streak could lock the player out of the broader game.
@@ -191,7 +190,7 @@ Timers should name their cadence explicitly. “Next Game Day” and “Next Cas
 - Starting Cash and early price ladder.
 - Weekly grant amount, scaling, and accumulation.
 - Which actions earn Gold through progress.
-- Gold price ladder for access and capacity.
+- Gold price ladder for optional capacity and acceleration.
 - Cash thresholds and intermediate durations between the five-minute and twelve-hour bank-clearance endpoints.
 - Gold cost of instant clearance and whether it scales with remaining time.
 - Whether every sale channel uses the same clearance curve.

@@ -14,8 +14,8 @@ An open question does not make the entire system unconfirmed.
 |---|---|---|
 | Player role | Rookie dealer in a New York City bedroom | Progress begins from a modest, personal headquarters |
 | Reputation | Permanent and never decreases in the MVP | Poor deals cost liquidity, not career progress |
-| Locations | Reputation reveals; Gold opens | Qualification and monetized access have separate roles |
-| Travel | Earlier opened locations remain accessible | New markets broaden rather than replace the game |
+| Locations | Reputation unlocks cities automatically; Gold is not required for core advancement | Geographic reach is earned through play while Gold remains optional capacity and acceleration |
+| Career presentation | Cities appear above challenge-based Badges as circular progress tracks | Geographic progress leads the page while achievements make specific play goals visible |
 | Time | One Game Day equals three real hours | Eight opportunity-refresh cycles occur per real day |
 | Player actions | No energy system or action limit | The market refreshes, but the game does not stop play |
 | Cash support | Game grants Cash every seven real days | Recovery is predictable and separate from Game Days |
@@ -40,7 +40,7 @@ An open question does not make the entire system unconfirmed.
 | Home and navigation | The activity feed lives in Your room; the dock is Room, Watch Box, Market, Streets, and Career | Collection and Store access are anchored at home while persistent navigation stays compact |
 | Visual rollout | Approved Figma screens may advance beyond wireframes; unfinished routes inherit the shared shell and retain placeholders | Visual maturity can progress without deciding open game rules |
 | Catalog | Roughly six to ten families | MVP favors depth and variation over breadth |
-| Currency boundary | Cash buys watches; Gold buys access and speed | Real-money currency cannot directly purchase inventory |
+| Currency boundary | Cash buys watches; Gold buys optional capacity and speed | Real-money currency cannot directly purchase inventory or gate core city progression |
 
 ## Priority open questions
 
@@ -82,7 +82,7 @@ An open question does not make the entire system unconfirmed.
 - How much does each action grant?
 - Are failed negotiations or auction drop-outs rewarded?
 - How are repetitive low-value actions prevented from becoming the best progression strategy?
-- What are the location and inventory thresholds?
+- What are the city and inventory thresholds?
 
 **Why it matters:** The reward table defines the pace and tells players what the game values.
 
@@ -165,7 +165,6 @@ An open question does not make the entire system unconfirmed.
 ### Gold and monetization
 
 - Which progression beats award free Gold?
-- What are location, entry, offer-slot, and inventory prices?
 - Which expedited processes exist at launch?
 - Are convenience purchases permanent or consumable?
 - What free allowance makes every system genuinely usable?
