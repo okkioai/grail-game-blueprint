@@ -190,9 +190,10 @@ The implementation may advance approved Figma-designed routes beyond wireframe f
 
 - Inventory and Album views under the unchanged Watch Box title.
 - Six starting inventory slots.
-- An Album card for every catalog model, with the model name always visible.
+- An Album card for every catalog model, arranged four per row with the model name always visible.
 - Album artwork absent until first ownership, then permanently revealed even after sale.
-- A one-at-a-time flip on revealed cards exposes concise brand and model-history notes; undiscovered model pockets do not flip.
+- The first tap on a revealed card lifts it into a larger centered focus state above the Album; the next tap flips it to expose concise brand and model-history notes.
+- Only one card may be focused or flipped at a time; tapping outside returns it to the Album, and undiscovered model pockets do not focus or flip.
 - Watch image and identity.
 - Acquisition cost.
 - Estimated range.
@@ -201,7 +202,7 @@ The implementation may advance approved Figma-designed routes beyond wireframe f
 - Marketplace status.
 - Capacity progress or expansion.
 
-**States:** Open slot, full box, pending offer, newly acquired watch, selected watch, capacity expansion, undiscovered Album model, newly revealed Album model, previously owned but no-longer-held model, and one flipped Album card.
+**States:** Open slot, full box, pending offer, newly acquired watch, selected watch, capacity expansion, undiscovered Album model, newly revealed Album model, previously owned but no-longer-held model, one focused Album card, and one flipped Album card.
 
 ## WF-12 — Progression and grants
 

@@ -34,7 +34,7 @@ An open question does not make the entire system unconfirmed.
 | Marketplace trade | Buyer posts Cash offer; matching owners are notified | First valid owner acceptance completes the transfer |
 | Offer capacity | Three active slots initially; Gold permanently adds more | Paid capacity expands parallel demand, not watch purchasing power |
 | Starting inventory | Six watch slots | Ownership has a clear opportunity cost |
-| Watch album | Watch Box has Inventory and Album views; every model name is visible, its image permanently reveals after first ownership, and revealed cards flip one at a time for brand and model history | Collection discovery persists beyond current ownership without consuming watch slots |
+| Watch album | Watch Box has Inventory and Album views; the Album shows four model cards per row with every model name visible, images permanently reveal after first ownership, and a revealed card lifts to a centered focus state before a second tap flips it for brand and model history | Collection discovery persists beyond current ownership without consuming watch slots, while the two-step focus interaction keeps dense cards readable |
 | Watch capacity | Gold purchases permanent watch-space expansion; Reputation also provides a progression path | Paid capacity accelerates growth without making the free route impossible |
 | Gold storefront | Five fixed package price points from $1.99 to $49.99 | Players can purchase Gold directly without Cash, watches, or randomized contents in standard packages |
 | Home and navigation | The activity feed lives in Your room; the dock is Room, Watch Box, Market, Streets, and Career | Collection and Store access are anchored at home while persistent navigation stays compact |
