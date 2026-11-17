@@ -192,7 +192,7 @@ The implementation may advance approved Figma-designed routes beyond wireframe f
 - Six starting inventory slots.
 - An Album card for every catalog model, with the model name always visible.
 - Album artwork absent until first ownership, then permanently revealed even after sale.
-- A one-at-a-time card flip revealing concise brand and model-history notes.
+- A one-at-a-time flip on revealed cards exposes concise brand and model-history notes; undiscovered model pockets do not flip.
 - Watch image and identity.
 - Acquisition cost.
 - Estimated range.

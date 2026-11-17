@@ -41,7 +41,7 @@ Inventory shows the watches the player owns now. Album shows every watch model a
 - First ownership permanently reveals the image in the Album.
 - Selling or transferring the last owned instance does not hide the image again.
 - Album discovery does not occupy inventory slots and does not imply current ownership.
-- Album cards may flip to show short brand and model-history notes; only one card is open at a time.
+- Revealed Album cards may flip to show short brand and model-history notes; only one card is open at a time. Undiscovered model pockets are inert.
 
 This makes acquiring a model meaningful beyond the immediate trade without changing inventory capacity or watch authority.
 
