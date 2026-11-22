@@ -123,6 +123,8 @@ This guarantees a liquidity route. The player is never permanently trapped with 
 
 Dealer sales do not use the buying negotiation's pressure meter, patience meter, player-set opening ask, repeated rounds, or manual concessions. Selling to a dealer should be faster and more reliable than waiting for a player buyer. The likely tradeoff is a lower return.
 
+The server deal ledger is authoritative for settlement. Accepting a dealer offer sends one authenticated, idempotent settlement command; the server records the deal before the client removes the watch or mirrors the Cash result. Mission progress, notifications, and later analytics derive from that persisted server deal, not from a browser-local transaction record. Legacy prototype transactions may be imported once with stable idempotency keys, after which the server record is canonical.
+
 ## Dealer sourcing requests
 
 ### Confirmed rule
