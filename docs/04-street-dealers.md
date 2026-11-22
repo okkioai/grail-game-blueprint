@@ -107,7 +107,7 @@ If inventory is full, the game should stop the final purchase before Cash moves 
 
 ### Confirmed rule
 
-Every dealer buys every watch. A specialist gives a stronger opening offer and may show more patience for a watch in their area.
+Every dealer buys every watch. A specialist gives a stronger opening offer for a watch in their area.
 
 This guarantees a liquidity route. The player is never permanently trapped with an unwanted watch simply because no perfect buyer appears.
 
