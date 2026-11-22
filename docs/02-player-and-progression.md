@@ -79,9 +79,9 @@ Mission progress never decreases. The client displays progress but does not decl
 
 The first mission is **The Introduction**:
 
-1. A closed text-message card from Fresh Mike appears prominently on the Home screen as “New message from Mike.” Selecting **View** opens a dialogue overlay above the dimmed Home screen with Mike's 3D dealer presentation and the same typed text-bubble language used in negotiation; his request and the dialogue action lead to the Streets map.
+1. A closed text-message card from Fresh Mike appears prominently on the Home screen as “New message from Mike.” Selecting **View** opens a dialogue overlay above the dimmed Home screen with Mike's 2D character art, a typed text bubble, and an action leading to the Streets map.
 2. The message remains the active direction until the player enters Fresh Mike's shop.
-3. In Mike's shop, the same 3D dealer presentation and typed negotiation-style bubble show him explaining that he wants to introduce the player to Benny Adler, a dealer friend who may be interested in the starter watch Mike gave the player.
+3. In Mike's shop, Mike appears through the 3D dealer presentation above a dark conversation area. The exchange uses typed negotiation-style bubbles in three beats: Mike asks how the player is doing and the player answers in text; Mike explains that Benny Adler may be interested in the starter Black Bay and the player asks whether Benny will buy it; Mike tells the player to show Benny the watch and hear his number, and the player agrees in text to go meet him. The protagonist is represented only through outgoing text replies, never a second character image.
 4. Completing the conversation permanently unlocks Benny on the Streets map.
 
 This mission card replaces generic prompts such as “Go find the next deal.” The game leads the player with the current authored mission rather than a permanent sandbox-direction banner.
