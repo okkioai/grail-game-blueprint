@@ -125,6 +125,8 @@ Dealer sales do not use the buying negotiation's pressure meter, patience meter,
 
 The server deal ledger is authoritative for settlement. Accepting a dealer offer sends one authenticated, idempotent settlement command; the server records the deal before the client removes the watch or mirrors the Cash result. Mission progress, notifications, and later analytics derive from that persisted server deal, not from a browser-local transaction record. Legacy prototype transactions may be imported once with stable idempotency keys, after which the server record is canonical.
 
+After a successful settlement, the player enters a two-beat **Watch Sold** celebration before returning to the dealer's Sell view. The first beat says **Deal sealed!**, puts the exact server-recorded Cash proceeds at the center of the screen, and uses the standard yellow deal confetti. **Next** advances to the animated Reputation result, using the Reputation earned by that same settlement. The sale celebration never runs before the authoritative settlement succeeds and retries must not replay rewards.
+
 ## Dealer sourcing requests
 
 ### Confirmed rule

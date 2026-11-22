@@ -131,6 +131,8 @@ The MVP specification still needs rules for:
 
 The server must be authoritative for acceptance and transfer. The first valid acceptance—not the first animation shown on a device—wins.
 
+A completed watch sale uses the same two-beat **Watch Sold** result as a dealer sale: **Deal sealed!** with exact Cash proceeds and yellow confetti, followed by the animated Reputation result. It appears only after authoritative acceptance and returns the player to Marketplace Offers when complete.
+
 ## Relationship to dealer selling
 
 The two exits should have different strengths:
