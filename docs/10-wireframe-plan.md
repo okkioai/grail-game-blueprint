@@ -49,7 +49,7 @@ The implementation may advance approved Figma-designed routes beyond wireframe f
 - Dealer portraits and specialties.
 - Stock refresh timer.
 
-**States:** Visible with no progress, partially progressed, Reputation threshold reached, opened, and return to earlier location.
+**States:** Visible with no progress, partially progressed, required mission completed, opened, and return to earlier location.
 
 ## WF-03 — Dealer storefront
 
@@ -211,8 +211,8 @@ The implementation may advance approved Figma-designed routes beyond wireframe f
 
 - Current Reputation.
 - Cities above Badges.
-- A row of circular City progress indicators driven by Reputation.
-- Automatic permanent city access when its Reputation threshold is reached.
+- A row of circular City progress indicators driven by story missions.
+- Automatic permanent city access when its required story mission is completed.
 - A row of circular Badge indicators with visible challenge requirements and partial progress.
 - Rewarded Gold where applicable.
 - Cash grant countdown and amount.

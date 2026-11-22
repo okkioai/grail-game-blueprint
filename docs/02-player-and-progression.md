@@ -47,7 +47,6 @@ Rewards should favor meaningful outcomes over repetitive button presses. Simply 
 
 ### What Reputation unlocks
 
-- Automatic access to new cities at selected career thresholds.
 - Larger watch boxes at selected career thresholds.
 - Higher-value opportunities and dealers.
 - Future progression features that communicate expertise and reach.
@@ -68,9 +67,24 @@ Badge challenges may expand as content is added. Their requirements must be visi
 
 ## Location progression
 
-Cities unlock automatically when the player reaches their Reputation threshold. Gold is not required to reveal, open, or travel to a city.
+Cities unlock permanently through completion of specific story missions. Gold and Reputation are not direct requirements to reveal, open, or travel to a core city.
 
-Reputation therefore communicates both career standing and geographic reach. Gold remains an optional capacity and acceleration currency rather than a gate on core advancement.
+Reputation communicates career standing and may be used as a visible mission objective, but reaching a Reputation value alone does not open a city. Gold remains an optional capacity and acceleration currency rather than a gate on core advancement.
+
+## Story missions
+
+Missions are the ordered story path of GRAIL. Every player follows the same versioned sequence and has at most one active mission. Each mission presents visible objectives, advances only from authoritative game events or the deal ledger, completes once, and may permanently unlock characters, opportunities, narrative scenes, or cities.
+
+Mission progress never decreases. The client displays progress but does not declare a mission complete. Completion, rewards, and activation of the next mission must settle atomically on the server so retries cannot duplicate progress or rewards.
+
+The first mission is **The Introduction**:
+
+1. A closed text-message card from Fresh Mike appears prominently on the Home screen as “New message from Mike.” Selecting **View** reveals his request to visit the shop; the revealed action opens the Streets map.
+2. The message remains the active direction until the player enters Fresh Mike's shop.
+3. Mike tells the player that he wants to introduce them to Benny Adler, a dealer friend who may be interested in the starter watch Mike gave the player.
+4. Completing the conversation permanently unlocks Benny on the Streets map.
+
+This mission card replaces generic prompts such as “Go find the next deal.” The game leads the player with the current authored mission rather than a permanent sandbox-direction banner.
 
 ### Permanent access
 
@@ -104,9 +118,9 @@ The starting New York environment establishes the basic rules. Later locations c
 A healthy progression beat follows this pattern:
 
 1. The player completes deals, advances badge challenges, and earns Reputation.
-2. The next city remains visible with its Reputation threshold and partial progress.
+2. The next city remains visible with its required story mission and partial mission progress.
 3. The preview explains why the market is desirable.
-4. Reaching the threshold unlocks the city automatically.
+4. Completing the required mission unlocks the city automatically.
 5. The new city creates a clear step up in opportunity.
 6. The old cities remain useful options.
 
@@ -120,9 +134,9 @@ Inventory expansion should be meaningful but not eliminate scarcity too quickly.
 
 ## Player flow: opening a location
 
-1. The city appears in the Career track with its Reputation threshold.
-2. The progress circle fills as Reputation increases.
-3. Reaching the threshold celebrates the career milestone and opens the city permanently.
+1. The city appears in the Career track with its required story mission.
+2. The progress circle fills as the associated mission objectives are completed.
+3. Completing the mission celebrates the story milestone and opens the city permanently.
 4. The unlocked city appears in normal travel alongside every earlier location.
 
 ## Wireframe implications
@@ -136,7 +150,7 @@ The room hub and progression screens must keep the resources visually distinct:
 The Career screen needs three unmistakable city states:
 
 1. Visible with little or no Reputation progress.
-2. Partially filled toward the Reputation threshold.
+2. Partially filled toward the required mission completion.
 3. Unlocked and permanently travelable.
 
 It also needs incomplete, in-progress, and earned Badge states.
@@ -145,7 +159,7 @@ It also needs incomplete, in-progress, and earned Badge states.
 
 - Exact starting Cash, Gold, watches, and Reputation.
 - Reputation rewards by action.
-- Reputation thresholds and progression speed.
+- Mission ordering, objective pacing, and city-unlock timing.
 - Number of MVP locations.
 - Timing and price of inventory expansions.
 - Whether the player's room itself visually upgrades within the MVP.

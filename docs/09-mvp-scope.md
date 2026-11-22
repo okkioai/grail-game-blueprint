@@ -16,7 +16,7 @@ It does not need to simulate the entire watch industry. It needs to make finding
 - Cash, Gold, and permanent Reputation.
 - Six-slot starting watch box.
 - Permanent watch-space and marketplace-offer capacity purchasable with Gold alongside free progression.
-- Reputation-only city progression, Career badges, and return travel.
+- Mission-based permanent city progression, Career badges, and return travel.
 - One Game Day every three real hours.
 - Cash grant every seven real days.
 - Cash and Available Cash with amount-based bank clearance from five minutes to twelve hours.
@@ -138,7 +138,7 @@ Peer pricing creates abuse and inflation risks. Server authority, bounds, reserv
 
 ### Monetization perception
 
-Gold touches optional entries, capacity, and acceleration. Core city progression is earned through Reputation, every paid system needs a usable free path, and the watch itself must remain a Cash decision.
+Gold touches optional entries, capacity, and acceleration. Core city progression is earned through story missions, every paid system needs a usable free path, and the watch itself must remain a Cash decision.
 
 ### Scope expansion
 

@@ -14,7 +14,8 @@ An open question does not make the entire system unconfirmed.
 |---|---|---|
 | Player role | Rookie dealer in a New York City bedroom | Progress begins from a modest, personal headquarters |
 | Reputation | Permanent and never decreases in the MVP | Poor deals cost liquidity, not career progress |
-| Locations | Reputation unlocks cities automatically; Gold is not required for core advancement | Geographic reach is earned through play while Gold remains optional capacity and acceleration |
+| Story missions | Every player advances through the same ordered, versioned mission sequence; one mission is active at a time and authoritative game events complete its visible objectives | Story progress is persistent, cannot be skipped or completed twice, and provides a directed path through the game |
+| Locations | Story missions unlock cities permanently; Gold and Reputation do not open core cities directly | Geographic reach follows the authored narrative while Gold remains optional capacity and acceleration |
 | Career presentation | Cities appear above challenge-based Badges as circular progress tracks | Geographic progress leads the page while achievements make specific play goals visible |
 | Time | One Game Day equals three real hours | Eight opportunity-refresh cycles occur per real day |
 | Player actions | No energy system or action limit | The market refreshes, but the game does not stop play |
@@ -39,9 +40,10 @@ An open question does not make the entire system unconfirmed.
 | Watch capacity | Gold purchases permanent watch-space expansion; Reputation also provides a progression path | Paid capacity accelerates growth without making the free route impossible |
 | Gold storefront | Five fixed package price points from $1.99 to $49.99 | Players can purchase Gold directly without Cash, watches, or randomized contents in standard packages |
 | Home and navigation | The activity feed lives in Your room; the dock is Room, Watch Box, Market, Streets, and Career | Collection and Store access are anchored at home while persistent navigation stays compact |
+| Opening street map | The bedroom and Fresh Mike are the only destinations rendered at the beginning; later destinations appear upward on the map only after missions unlock them | The physical map grows with the authored climb instead of showing disabled future locations |
 | Visual rollout | Approved Figma screens may advance beyond wireframes; unfinished routes inherit the shared shell and retain placeholders | Visual maturity can progress without deciding open game rules |
 | Catalog | Roughly six to ten families | MVP favors depth and variation over breadth |
-| Currency boundary | Cash buys watches; Gold buys optional capacity and speed | Real-money currency cannot directly purchase inventory or gate core city progression |
+| Currency boundary | Cash buys watches; Gold buys optional capacity and speed | Real-money currency cannot directly purchase inventory, complete missions, or gate core city progression |
 
 ## Priority open questions
 
@@ -189,7 +191,7 @@ For dealer selling:
 3. **Economy simulation** — Cash flow, dealer spreads, inventory lock-up, bank-clearance tiers, Gold costs, storefront quantities, and seven-day recovery.
 4. **Auction prototype** — bid rhythm, NPC ceilings, and projected margin.
 5. **Marketplace service model** — matching, reservation, server-authoritative acceptance, and abuse cases.
-6. **Progression model** — Reputation cadence, location thresholds, Gold rewards, and expansion timing.
+6. **Progression model** — Mission cadence, city-unlock timing, Reputation rewards, Gold rewards, and expansion timing.
 
 ## Change protocol
 
