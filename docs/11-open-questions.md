@@ -27,7 +27,8 @@ An open question does not make the entire system unconfirmed.
 | Negotiation input | Press and hold rather than slider/swipe | The signature action is one-thumb friendly |
 | Dealer patience | Runs down and ends in a final price | Haggling has a finite cost and shape |
 | Dealer selling | Every dealer buys every watch | The player always has a liquidity route |
-| Dealer-sale entry | Selling begins at a dealer storefront; Watch Box does not expose a direct sell action | The player chooses the buyer before entering the mirrored negotiation |
+| Dealer-sale entry | Selling begins at a dealer storefront; Watch Box does not expose a direct sell action | The player chooses the buyer before reviewing an offer |
+| Dealer-sale negotiation | The dealer opens with a Cash offer; the player may accept, keep the watch, or make one evidence-based case before a final offer | Dealer sales remain fast and legible without the buying flow's pressure meter, patience, repeated rounds, player-set ask, or manual concessions |
 | Dealer sourcing | From Sell, a dealer may request a model and quote a maximum Cash price for the next two Game Days | The player can identify an exit, source across channels, and attempt an arbitrage deal before demand expires |
 | Auction allowance | Two free entries per Game Day | Gold sells additional opportunity after a usable free allowance |
 | Marketplace supply | Owned watches are automatically discoverable | Buyers create demand; sellers need not maintain listings |
@@ -88,6 +89,8 @@ An open question does not make the entire system unconfirmed.
 
 ### Negotiation
 
+For dealer buying:
+
 - What happens after an incorrect rebuttal?
 - How does the press meter determine success?
 - Can pressure be too weak or too strong?
@@ -96,7 +99,12 @@ An open question does not make the entire system unconfirmed.
 - How does difficulty scale by dealer and location?
 - Does the final price improve, hold, or harden?
 
-**Why it matters:** These rules determine whether negotiation feels strategic, readable, and replayable.
+For dealer selling:
+
+- How much can one strong case improve the opening offer?
+- Should a weak or misdirected case ever harden the offer rather than hold it?
+
+**Why it matters:** These rules determine whether negotiation feels strategic, readable, and replayable while keeping the dealer-sale liquidity route deliberately faster.
 
 ### Dealer economy
 

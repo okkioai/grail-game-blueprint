@@ -113,15 +113,15 @@ This guarantees a liquidity route. The player is never permanently trapped with 
 
 ### Selling flow
 
-1. Select an owned watch.
-2. Choose an opened dealer.
-3. Review the dealer's Cash offer.
-4. See whether the watch matches the dealer's specialty.
-5. Use favorable watch facts to argue for a stronger offer.
-6. Accept the offer or leave with the watch.
+1. Select an owned watch from an opened dealer's **Sell** view.
+2. Review the dealer's opening Cash offer and the reason for it.
+3. Accept the opening offer, keep the watch, or choose **Make your case**.
+4. If making a case, select one favorable known fact from three commercially plausible responses.
+5. The dealer returns one final offer. A strong, directly relevant fact may improve it; a weak or misdirected case may leave it unchanged.
+6. Accept the final offer or keep the watch.
 7. On acceptance, transfer the watch, increase Cash, free the slot, and earn Reputation. The proceeds increase Available Cash after bank clearance or an optional Gold-based instant clearance.
 
-Selling to a dealer should be faster and more reliable than waiting for a player buyer. The likely tradeoff is a lower return.
+Dealer sales do not use the buying negotiation's pressure meter, patience meter, player-set opening ask, repeated rounds, or manual concessions. Selling to a dealer should be faster and more reliable than waiting for a player buyer. The likely tradeoff is a lower return.
 
 ## Dealer sourcing requests
 

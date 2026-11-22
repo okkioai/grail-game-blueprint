@@ -133,32 +133,35 @@ The exact consequence is not yet confirmed. A useful MVP prototype should test t
 
 The result must be legible. The player should understand why the attempt failed and which fact would have been stronger, without the game feeling like an arbitrary quiz.
 
-## Buying and selling symmetry
+## Dealer-sale negotiation
 
-The same basic structure can support selling to a dealer:
+Selling uses a shorter evidence-based flow rather than mirroring the full buying mechanic:
 
-- The dealer opens with a Cash offer.
-- The dealer gives a reason for the valuation.
-- The player selects a favorable fact about the owned watch.
-- The player presses to push the offer upward.
-- Dealer patience limits the number of rounds.
-- The player accepts the current offer or keeps the watch.
+1. The dealer opens with a Cash offer and a reason for the valuation.
+2. The player may accept, keep the watch, or choose **Make your case**.
+3. **Make your case** presents three commercially plausible responses based on known watch facts. One directly answers the dealer's valuation reason.
+4. The dealer returns one final offer. A strong case can improve it; a weak or misdirected case can leave it unchanged.
+5. The player accepts the final offer or keeps the watch.
 
-The language changes, but the learned interaction remains useful.
+Dealer sales have no player-set opening ask, pressure meter, patience meter, repeated rounds, or manual concessions. They preserve the core skill of matching evidence to a claim while remaining the game's fast, dependable liquidity route.
+
+The full **Read → Rebut → Press → Decide** cycle, pressure states, and patience rules in this document apply to buying from a dealer unless a section explicitly says otherwise.
 
 ## Screen hierarchy
 
-The negotiation screen must keep these elements visible:
+The buying negotiation screen must keep these elements visible:
 
 1. Watch identity and image.
-2. Current price or offer.
+2. Current asking price.
 3. Dealer claim or response.
 4. Three rebuttal choices when active.
 5. Press-and-hold control when active.
 6. Dealer patience.
-7. Buy/accept, continue, and walk-away actions.
+7. Buy, continue, and walk-away actions.
 
-The screen should reveal the cycle in stages rather than display every control at once.
+The dealer-sale screen instead prioritizes the dealer's current Cash offer, their valuation reason, the optional **Make your case** action, the three evidence choices when active, and persistent accept-or-keep actions. It does not show pressure or patience.
+
+Both flows should reveal their interaction in stages rather than display every control at once.
 
 ## Feedback and tone
 
