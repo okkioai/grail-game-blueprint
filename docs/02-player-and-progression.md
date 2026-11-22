@@ -77,6 +77,8 @@ Missions are the ordered story path of GRAIL. Every player follows the same vers
 
 Mission progress never decreases. The client displays progress but does not declare a mission complete. Completion, rewards, and activation of the next mission must settle atomically on the server so retries cannot duplicate progress or rewards.
 
+The Home screen keeps one persistent mission-direction card for the first incomplete objective of the active mission. When that objective is an incoming message, Home shows the closed sender-specific message card instead of a generic objective card. Every other objective uses a neutral **Current objective** card with its mission context and a direct action to the relevant screen. The card disappears when no mission objective is active.
+
 The first mission is **The Introduction**:
 
 1. A closed text-message card from Fresh Mike appears prominently on the Home screen as “New message from Mike.” Selecting **View** opens a dialogue overlay above the dimmed Home screen with Mike's 2D character art, a typed text bubble, and an action leading to the Streets map.
