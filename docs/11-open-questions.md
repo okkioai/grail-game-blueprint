@@ -41,6 +41,7 @@ An open question does not make the entire system unconfirmed.
 | Gold storefront | Five fixed package price points from $1.99 to $49.99 | Players can purchase Gold directly without Cash, watches, or randomized contents in standard packages |
 | Home and navigation | The activity feed lives in Your room; the dock is Room, Watch Box, Market, Streets, and Career | Collection and Store access are anchored at home while persistent navigation stays compact |
 | Opening street map | The bedroom and Fresh Mike are the only destinations rendered at the beginning; later destinations appear upward on the map only after missions unlock them | The physical map grows with the authored climb instead of showing disabled future locations |
+| Mission destination cue | The location required by the current objective pulses on the Streets map; after Mike's introduction, Benny appears and inherits that cue | The map visibly hands the player from one story destination to the next without exposing locked locations |
 | Visual rollout | Approved Figma screens may advance beyond wireframes; unfinished routes inherit the shared shell and retain placeholders | Visual maturity can progress without deciding open game rules |
 | Catalog | Roughly six to ten families | MVP favors depth and variation over breadth |
 | Currency boundary | Cash buys watches; Gold buys optional capacity and speed | Real-money currency cannot directly purchase inventory, complete missions, or gate core city progression |

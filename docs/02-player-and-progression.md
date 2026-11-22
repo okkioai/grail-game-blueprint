@@ -87,6 +87,8 @@ The first mission is **The Introduction**:
 2. The message remains the active direction until the player enters Fresh Mike's shop.
 3. In Mike's shop, Mike appears through the 3D dealer presentation above a dark conversation area. The exchange uses typed negotiation-style bubbles in three beats: Mike asks how the player is doing and the player answers in text; Mike explains that Benny Adler may be interested in the starter Black Bay and the player asks whether Benny will buy it; Mike tells the player to show Benny the watch and hear his number, and the player agrees in text to go meet him. The protagonist is represented only through outgoing text replies, never a second character image.
 4. Completing the conversation permanently unlocks Benny on the Streets map.
+5. Benny immediately becomes the current mission destination: his newly revealed map node uses the same pulsing destination treatment previously used for Mike, and the Home objective changes to **Go meet Benny**.
+6. Mission 1 remains active at this handoff. Entering Benny's shop does not complete the mission until Benny's arrival scene and the following authored objective are defined alongside Mission 2.
 
 This mission card replaces generic prompts such as “Go find the next deal.” The game leads the player with the current authored mission rather than a permanent sandbox-direction banner.
 
