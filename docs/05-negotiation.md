@@ -46,6 +46,8 @@ All three choices should be credible at first glance and comparable in length, c
 
 Dealer claims and player responses should read as a continuing spoken exchange: short, natural, character-specific, and allowed to carry friction, humor, or attitude. Avoid sterile appraisal language and repeated templates unless they are a deliberate part of that character's voice.
 
+On a 3D dealer negotiation screen, presentation begins with the character. Keep the dialogue bubble hidden until the dealer model has rendered its first frame (or the neutral fallback is confirmed), then reveal the bubble and begin the typing animation exactly once. Background dialogue preloading must not redraw the opening line or remount the character.
+
 The system tests attention and judgment, not obscure real-world trivia. Every required fact must already be visible on the fact sheet.
 
 ## Step 3: Press
