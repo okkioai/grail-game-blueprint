@@ -73,9 +73,11 @@ Reputation communicates career standing and may be used as a visible mission obj
 
 ## Story missions
 
-Missions are the ordered story path of GRAIL. Every player follows the same versioned sequence and has at most one active mission. Each mission presents visible objectives, advances only from authoritative game events or the deal ledger, completes once, and may permanently unlock characters, opportunities, narrative scenes, or cities.
+Missions are the ordered story path of GRAIL. Every player follows the same versioned sequence and has exactly one active mission. Account creation and profile reset activate Mission 1. Each mission presents visible objectives, advances only from authoritative game events or the deal ledger, completes once, and may permanently unlock characters, opportunities, narrative scenes, or cities.
 
-Mission progress never decreases. The client displays progress but does not declare a mission complete. Completion, rewards, and activation of the next mission must settle atomically on the server so retries cannot duplicate progress or rewards.
+Mission progress never decreases. The client displays progress but does not declare a mission complete. Completion, rewards, and activation of the next mission must settle atomically on the server so retries cannot duplicate progress or rewards. A mission may not ship as completable until its successor is present in the released sequence, preventing a player from reaching an unassigned story state.
+
+Authenticated tester tools may reset the tester's own story profile into any mission in the released sequence. Selecting a mission clears that profile's prior mission events and mission-derived unlocks, then rebuilds the chosen mission from its versioned definition. This control is for reproducible testing and is not part of the player interface.
 
 The Home screen keeps one persistent mission-direction card for the first incomplete objective of the active mission. When that objective is an incoming message, Home shows the closed sender-specific message card instead of a generic objective card. Every other objective uses a neutral **Current objective** card with its mission context and a direct action to the relevant screen. The card disappears when no mission objective is active.
 

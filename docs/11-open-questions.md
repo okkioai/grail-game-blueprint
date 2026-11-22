@@ -14,7 +14,7 @@ An open question does not make the entire system unconfirmed.
 |---|---|---|
 | Player role | Rookie dealer in a New York City bedroom | Progress begins from a modest, personal headquarters |
 | Reputation | Permanent and never decreases in the MVP | Poor deals cost liquidity, not career progress |
-| Story missions | Every player advances through the same ordered, versioned mission sequence; one mission is active at a time and authoritative game events complete its visible objectives | Story progress is persistent, cannot be skipped or completed twice, and provides a directed path through the game |
+| Story missions | Every player advances through the same ordered, versioned mission sequence; one mission is always active, creation/reset starts Mission 1, and authoritative game events atomically activate the next released mission | Story progress is persistent, cannot be skipped or completed twice, and never leaves the player without authored direction |
 | Locations | Story missions unlock cities permanently; Gold and Reputation do not open core cities directly | Geographic reach follows the authored narrative while Gold remains optional capacity and acceleration |
 | Career presentation | Cities appear above challenge-based Badges as circular progress tracks | Geographic progress leads the page while achievements make specific play goals visible |
 | Time | One Game Day equals three real hours | Eight opportunity-refresh cycles occur per real day |
