@@ -70,6 +70,20 @@ The launch target is approximately **six to ten recognizable watch families**.
 
 The exact count remains flexible until art, writing, and balance costs are better understood. The MVP does not need hundreds of models if a smaller set can produce meaningful commercial variety.
 
+## Catalog identity and watch instances
+
+### Confirmed rule
+
+The server catalog separates three stable identities:
+
+- **Brand** is the maker-level identity and owns shared history.
+- **Reference** is a collectible watch model. Album discovery, marketplace criteria, model history, and the current single catalog image attach here.
+- **Instance** is one actual watch in the economy. Its condition, completeness, configuration, known facts, provenance, ownership, and transaction history are independent of the reference.
+
+Multiple instances may point to the same reference without becoming the same watch. A reference may exist in the Album before any instance of it exists in the live economy.
+
+For the initial catalog pass, each reference has one transparent product image stored in versioned object storage. Replacing an image publishes a new object version rather than overwriting the object used by an existing build or report.
+
 ## Variation axes
 
 Each watch family can vary through three primary dimensions.
@@ -193,5 +207,5 @@ For the MVP, depth is more valuable than breadth. A smaller catalog should still
 - Reputation thresholds for larger boxes.
 - Gold cost of permanent capacity.
 - Whether Gold purchases individual slots or staged box upgrades, and the maximum capacity.
-- Image-production pipeline for all variants.
+- How additional configuration images should extend the one-image-per-reference baseline.
 

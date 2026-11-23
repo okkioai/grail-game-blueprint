@@ -44,7 +44,7 @@ An open question does not make the entire system unconfirmed.
 | Mission destination cue | The location required by the current objective pulses on the Streets map; after Mike's introduction, Benny appears and inherits that cue | The map visibly hands the player from one story destination to the next without exposing locked locations |
 | Mission 2 prototype | Mission 2 activates on the server immediately after Mission 1; the client waits five seconds before presenting Mike's new message, then Mike offers a provisional Datejust through a short shop conversation and hands the player into the normal dealer Buy flow | The server keeps progression simple and authoritative while the client creates a readable narrative beat; the exact watch model, configuration, facts, and price remain replaceable content assumptions |
 | Visual rollout | Approved Figma screens may advance beyond wireframes; unfinished routes inherit the shared shell and retain placeholders | Visual maturity can progress without deciding open game rules |
-| Catalog | Roughly six to ten families | MVP favors depth and variation over breadth |
+| Catalog | Roughly six to ten families, represented as Brand → Reference → Instance; each reference initially owns one versioned transparent catalog image while instances hold their own commercial state | MVP favors depth and variation over breadth, Album discovery remains stable, and two physical watches of the same model never collapse into one record |
 | Currency boundary | Cash buys watches; Gold buys optional capacity and speed | Real-money currency cannot directly purchase inventory, complete missions, or gate core city progression |
 
 ## Priority open questions
