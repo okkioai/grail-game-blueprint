@@ -137,7 +137,7 @@ The implementation may advance approved Figma-designed routes beyond wireframe f
 
 ## WF-08 — Marketplace offer creation
 
-**Purpose:** Make a Cash offer from a watch selected in Marketplace Browse.
+**Purpose:** Make a Cash offer on one watch instance selected in Marketplace Browse using its dedicated offer screen.
 
 **Required elements:**
 

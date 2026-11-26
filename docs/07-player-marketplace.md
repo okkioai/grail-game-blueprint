@@ -6,9 +6,9 @@
 
 The peer-to-peer marketplace is **offer driven**.
 
-All watches owned by players are automatically discoverable by the matching system. Owners do not have to create individual listings before another player can express interest.
+Player-owned watches are automatically discoverable. Owners do not have to create individual listings before a buyer can select a watch in Browse.
 
-A buyer describes the watch they want and commits a Cash offer. Every matching owner receives the opportunity to accept.
+A buyer selects a specific watch instance in Browse and sends a Cash offer to its owner.
 
 ## Why offers come first
 
@@ -21,44 +21,29 @@ This supports the dealer fantasy:
 - Every watch remains potentially liquid without constant listing management.
 - The market feels connected even with a focused launch catalog.
 
-## Offer criteria
+## Offer target
 
-A buyer offer targets:
-
-- Watch model or family.
-- Condition tier.
-- Completeness requirement.
-- One major configuration.
-- Cash amount.
-
-For example, a buyer may seek a Datejust with a particular condition tier, box and papers, and a selected dial category. Owners of matching Datejusts receive the offer.
-
-The criteria should be broad enough to produce matches while still allowing meaningful preference.
+Each offer identifies one selected watch instance and a Cash amount. The selected listing shows the model, condition, completeness, and configuration.
 
 ## Buyer flow
 
 1. Open **Browse** in the Marketplace and select a watch.
-2. Open the selected watch’s details and choose **Make an offer**.
+2. Open the selected watch’s details and choose **Make an offer** to open that listing’s dedicated offer screen.
 3. Review the model or family, condition, completeness, and configuration taken from that watch.
 4. Enter the Cash offer.
 5. Review the number of active offer slots and the reserved-Cash rule.
 6. Post the offer.
 7. Cash becomes reserved while the offer remains active.
-8. Wait for a matching owner to accept, or manage the offer under the final cancellation rules.
+8. Wait for the selected watch’s owner to accept, or manage the offer under the final cancellation rules.
 
-The Offers tab manages existing offers. A buyer must select a watch before making an offer. The selected watch supplies the matching criteria, and matching owners can still accept the offer.
+The Offers tab manages existing offers. A buyer must select a watch before making an offer. Only the selected watch can fulfill the offer.
 
 ## Seller flow
 
-1. The matching service identifies owned watches that satisfy a buyer's criteria.
-2. Matching owners receive a notification.
-3. The notification identifies the targeted watch and Cash amount.
-4. The owner reviews and accepts or ignores the offer.
-5. The first valid acceptance wins.
-6. The watch transfers immediately. The seller's Cash increases, and the proceeds become Available Cash after bank clearance or an optional Gold-based instant clearance.
-7. Other matching notifications become unavailable.
-
-The acceptance screen should clearly state that another owner may accept first.
+1. The selected watch’s owner receives a notification with the watch and Cash amount.
+2. The owner reviews and accepts or ignores the offer.
+3. The first valid transaction for the watch wins. The watch transfers immediately, and the seller’s proceeds follow bank clearance rules.
+4. Any other active offers for that watch close and their reserved Cash is released.
 
 ## Automatic discoverability
 
@@ -74,7 +59,7 @@ Privacy, player identity, and whether an owner can temporarily exclude a watch r
 
 When an offer is posted, its full Cash value is reserved. That commitment reduces Available Cash and cannot be used to buy another watch or fund another offer.
 
-Reservation prevents a buyer from posting more commitments than they can honor. It also creates a strategic cost: a broad offer may find a watch, but the locked Cash reduces other buying power.
+Reservation prevents a buyer from posting more commitments than they can honor. Reserved Cash reduces other buying power while the offer is active.
 
 The global interface shows only Cash and Available Cash. Cash remains the total; Available Cash falls when an offer reserves funds. Each active offer shows its own committed amount so the player can understand the difference without introducing a third balance.
 
@@ -90,7 +75,7 @@ The number of slots added by each Gold purchase and the capacity ceiling remain 
 
 ## Matching rules
 
-A valid match requires every selected criterion to be satisfied when the acceptance occurs.
+Acceptance must transfer the exact watch instance identified by the offer.
 
 The system should revalidate:
 
@@ -111,7 +96,7 @@ The owner notification needs to answer:
 - How much Cash is being offered?
 - How does that compare with my acquisition cost or current alternatives?
 - Is there an expiry?
-- Can another owner accept first?
+- Can another buyer acquire this watch first?
 - What happens immediately if I accept?
 
 It should be possible to make the decision quickly without navigating through several unrelated screens.
@@ -129,9 +114,9 @@ The MVP specification still needs rules for:
 - Multi-account abuse.
 - Notification expiration.
 - Watch-state changes after matching.
-- Conflict handling when two owners accept nearly simultaneously.
+- Conflict handling when two transactions target the same watch.
 
-The server must be authoritative for acceptance and transfer. The first valid acceptance—not the first animation shown on a device—wins.
+The server must be authoritative for acceptance and transfer. The first valid transaction wins.
 
 A completed watch sale uses the same two-beat **Watch Sold** result as a dealer sale: **Deal sealed!** with exact Cash proceeds and yellow confetti, followed by the animated Reputation result. It appears only after authoritative acceptance and returns the player to Marketplace Offers when complete.
 
@@ -143,7 +128,7 @@ The two exits should have different strengths:
 |---|---|
 | Immediate and dependable offer | Potentially stronger price |
 | Every dealer buys every watch | Requires a matching active buyer |
-| Specialty changes the offer | Exact criteria determine eligibility |
+| Specialty changes the offer | The selected watch instance determines eligibility |
 | Known exit before the sale | May require waiting for a matching buyer |
 
 This gives the owner a real decision between speed and expected return.
