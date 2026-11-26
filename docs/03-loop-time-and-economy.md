@@ -32,7 +32,7 @@ At a Game Day boundary, the game can:
 - Advance and expire two-Game-Day dealer sourcing requests.
 - Present new auction opportunities.
 - Advance or refresh marketplace activity.
-- Update selected timers and notifications.
+- Update selected timers and add a new Game Day notice to the activity feed in Your room. If several boundaries are processed together, show only the latest day for that update.
 - Restore the player's two free auction entries.
 
 ### No action cap

@@ -35,7 +35,7 @@ The implementation may advance approved Figma-designed routes beyond wireframe f
 - Collection summary and Watch Box entry.
 - Store entry from the room.
 
-**States:** Empty feed, dense history, new location revealed, and marketplace notification.
+**States:** Empty feed, a new Game Day, Cash grant ready to claim, and a buyer offer on a watch the player owns. Cash grant and offer notices link directly to claiming the grant or viewing incoming offers. They clear when the associated action is no longer available. Player actions and their outcomes do not add feed items.
 
 ## WF-02 — Location and dealer selection
 
