@@ -81,6 +81,8 @@ The player does not need to see these numbers. They should experience plausible 
 
 ## Outcomes
 
+When a live auction ends, immediately leave the bidding room and show the outcome. A settled win opens the acquisition celebration. A loss or drop-out opens **Watch lost**. An auction already in progress keeps its lot and resolves normally across a Game Day refresh.
+
 ### Win
 
 - Cash leaves the account.
@@ -110,10 +112,11 @@ Gold buys another auction entry after the two free entries in the current Game D
 
 ## Wireframe implications
 
-The auction interface needs two screens or states:
+The auction interface needs these screens or states:
 
 1. **Lot preview:** facts, price context, entry cost, and decision to participate.
 2. **Active bidding:** current bid, next increment, projected margin, Available Cash, NPC presence, and a large bid/drop-out decision.
+3. **Outcome:** acquisition celebration for a win or **Watch lost** for a loss or drop-out.
 
 The active screen must make accidental bids difficult while remaining fast enough to feel live.
 

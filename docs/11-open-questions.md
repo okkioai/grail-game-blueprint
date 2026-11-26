@@ -31,6 +31,7 @@ An open question does not make the entire system unconfirmed.
 | Dealer-sale entry | Selling begins at a dealer storefront; Watch Box does not expose a direct sell action | The player chooses the buyer before reviewing an offer |
 | Dealer-sale negotiation | The dealer opens with a Cash offer; the player may accept, keep the watch, or make one evidence-based case before a final offer | Dealer sales remain fast and legible without the buying flow's pressure meter, patience, repeated rounds, player-set ask, or manual concessions |
 | Dealer sourcing | From Sell, a dealer may request a model and quote a maximum Cash price for the next two Game Days | The player can identify an exit, source across channels, and attempt an arbitrage deal before demand expires |
+| Auction outcomes | Live bidding ends on **Watch lost** or the acquisition celebration | The player sees the result as soon as the auction resolves |
 | Auction allowance | Two free entries per Game Day | Gold sells additional opportunity after a usable free allowance |
 | Marketplace supply | Owned watches are automatically discoverable | Buyers create demand; sellers need not maintain listings |
 | Marketplace trade | Buyer posts a Cash offer on one selected watch instance and its owner is notified | The first valid transaction transfers that exact watch |
