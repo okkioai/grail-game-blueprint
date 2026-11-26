@@ -137,14 +137,11 @@ The implementation may advance approved Figma-designed routes beyond wireframe f
 
 ## WF-08 — Marketplace offer creation
 
-**Purpose:** Express demand without browsing individual player listings.
+**Purpose:** Make a Cash offer from a watch selected in Marketplace Browse.
 
 **Required elements:**
 
-- Model/family selector.
-- Condition tier.
-- Completeness.
-- Major configuration.
+- Selected watch’s model or family, condition, completeness, and major configuration.
 - Cash offer.
 - Reserved-Cash explanation.
 - Active slot count.

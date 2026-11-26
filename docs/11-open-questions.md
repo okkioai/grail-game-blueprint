@@ -34,6 +34,7 @@ An open question does not make the entire system unconfirmed.
 | Auction allowance | Two free entries per Game Day | Gold sells additional opportunity after a usable free allowance |
 | Marketplace supply | Owned watches are automatically discoverable | Buyers create demand; sellers need not maintain listings |
 | Marketplace trade | Buyer posts Cash offer; matching owners are notified | First valid owner acceptance completes the transfer |
+| Marketplace offer entry | Buyers select a watch in Browse and make an offer from its details | The Offers tab manages existing offers |
 | Offer capacity | Three active slots initially; Gold permanently adds more | Paid capacity expands parallel demand, not watch purchasing power |
 | Starting inventory | Six watch slots | Ownership has a clear opportunity cost |
 | Starting watch | Every new player begins with a Saito Terrapin gifted by Fresh Mike; it is the sole starter catalog reference | Mission 1 teaches dealer selling with this exact instance before later watches enter the loop |

@@ -37,14 +37,16 @@ The criteria should be broad enough to produce matches while still allowing mean
 
 ## Buyer flow
 
-1. Open the marketplace and choose **Create offer**.
-2. Select a model or watch family.
-3. Set condition, completeness, and one major configuration.
+1. Open **Browse** in the Marketplace and select a watch.
+2. Open the selected watch’s details and choose **Make an offer**.
+3. Review the model or family, condition, completeness, and configuration taken from that watch.
 4. Enter the Cash offer.
 5. Review the number of active offer slots and the reserved-Cash rule.
 6. Post the offer.
 7. Cash becomes reserved while the offer remains active.
 8. Wait for a matching owner to accept, or manage the offer under the final cancellation rules.
+
+The Offers tab manages existing offers. A buyer must select a watch before making an offer. The selected watch supplies the matching criteria, and matching owners can still accept the offer.
 
 ## Seller flow
 
@@ -160,7 +162,7 @@ Gold permanently unlocks more active offer slots. Gold never:
 
 The marketplace needs at least three core views:
 
-1. **Offer creation:** target criteria, Cash amount, and capacity.
+1. **Offer creation from a selected watch:** watch details, Cash amount, and capacity.
 2. **Active offers:** reserved Cash, match status, and management actions.
 3. **Seller notification:** targeted watch, offer value, and accept/ignore decision.
 
