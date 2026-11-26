@@ -101,6 +101,12 @@ The second mission is **Mike's Offer**:
 6. From that point the player uses the existing Read → Rebut → Press → Decide Buy flow. Purchasing that exact mission offer fulfills Mission 2; inspecting it, leaving, or buying a different Datejust does not.
 7. Until Mission 3 is authored, Mission 2 remains the released terminal mission after fulfillment and shows its completed state without inventing an unassigned next objective.
 
+### Mission 4 — The Search
+
+After Mike’s briefing, the sourcing objective is **Get an Aquamariner**. Mike needs a no-date Crownex Aquamariner 5513 in Good condition or better. Box and papers are optional.
+
+Marketplace Browse is the guided route. A direct purchase or a completed offer on a specific watch can supply the Aquamariner. Posting an offer is optional and does not fulfill the objective. Once the player has the watch, the next objective is to bring it to Mike.
+
 This mission card replaces generic prompts such as “Go find the next deal.” The game leads the player with the current authored mission rather than a permanent sandbox-direction banner.
 
 ### Permanent access
