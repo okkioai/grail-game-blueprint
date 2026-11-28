@@ -105,7 +105,7 @@ The second mission is **Mike's Offer**:
 
 After Mike’s briefing, the sourcing objective is **Get an Aquamariner**. Mike needs a no-date Crownex Aquamariner 5513 in Good condition or better. Box and papers are optional.
 
-Marketplace Browse is the guided route. A direct purchase or a completed offer on a specific watch can supply the Aquamariner. Posting an offer is optional and does not fulfill the objective. Once the player has the watch, the next objective is to bring it to Mike.
+Marketplace Browse is the guided route. A direct purchase or a completed offer on a specific watch can supply the Aquamariner. Posting an offer is optional and does not fulfill the objective. Once the player has the watch, the next objective is to bring it to Mike. Mike’s one-time offer covers the player’s acquisition cost plus a Cash premium based on the catalog value. The premium stays the same when the player pays above catalog value, so a better purchase price can earn more profit.
 
 This mission card replaces generic prompts such as “Go find the next deal.” The game leads the player with the current authored mission rather than a permanent sandbox-direction banner.
 
